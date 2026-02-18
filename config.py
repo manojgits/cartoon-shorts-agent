@@ -2,8 +2,11 @@
 Configuration module — loads all settings from environment variables.
 """
 
+import logging
 import os
 from dotenv import load_dotenv
+
+logger = logging.getLogger(__name__)
 
 # Load .env file for local development (GitHub Actions injects env vars directly)
 load_dotenv()
@@ -15,10 +18,7 @@ TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
 
 # ─── Google Drive Settings ───────────────────────────────────────────────────────
 GOOGLE_DRIVE_FOLDER_ID = os.environ.get("GOOGLE_DRIVE_FOLDER_ID", "")
-SERVICE_ACCOUNT_FILE = os.environ.get(
-    "SERVICE_ACCOUNT_FILE",
-    os.path.join(os.path.dirname(__file__), "cartoon-shorts-agent-7ba69faa4235.json"),
-)
+TOKEN_FILE = os.path.join(os.path.dirname(__file__), "token.json")
 
 # ─── Agent Settings ─────────────────────────────────────────────────────────────
 NUM_SHORTS = int(os.environ.get("NUM_SHORTS", "2"))
@@ -60,6 +60,8 @@ def validate_config():
         missing.append("TELEGRAM_CHANNEL_ID")
     if not GOOGLE_DRIVE_FOLDER_ID:
         missing.append("GOOGLE_DRIVE_FOLDER_ID")
+    if not os.path.exists(TOKEN_FILE):
+        logger.warning("⚠️ token.json not found — Drive upload will be skipped. Run 'python auth_setup.py' to set up.")
     if missing:
         raise EnvironmentError(
             f"Missing required environment variables: {', '.join(missing)}.\n"

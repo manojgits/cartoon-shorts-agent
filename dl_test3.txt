@@ -1,0 +1,138 @@
+﻿python : Deprecated Feature: Support for Python version 3.9 has 
+been deprecated. Please update to Python 3.10 or above
+At line:1 char:48
++ ... ivate.ps1"; python -W ignore -c "import yt_dlp; ydl = 
+yt_dlp.YoutubeD ...
++                 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Deprecated Feat...n 3. 
+   10 or above:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Extracting cookies from chrome
+ERROR: Could not copy Chrome cookie database. See  
+https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+ERROR: ERROR: Could not copy Chrome cookie database. See  
+https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+Traceback (most recent call last):
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\cookies.py", 
+line 315, in _extract_chrome_cookies
+    cursor = _open_database_copy(cookie_database_path, tmpdir)
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\cookies.py", 
+line 1106, in _open_database_copy
+    shutil.copy(database_path, database_copy_path)
+  File 
+"C:\Users\HP\AppData\Local\Programs\Python\Python39\lib\shutil.py", 
+line 427, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File 
+"C:\Users\HP\AppData\Local\Programs\Python\Python39\lib\shutil.py", 
+line 264, in copyfile
+    with open(src, 'rb') as fsrc:
+PermissionError: [Errno 13] Permission denied: 
+'C:\\Users\\HP\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 
+20\\Network\\Cookies'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\cookies.py", 
+line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, 
+YDLLogger(ydl), keyring=keyring, container=container))
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\cookies.py", 
+line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, 
+logger)
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\cookies.py", 
+line 355, in _extract_chrome_cookies
+    logger.error(message)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\utils\_utils.py", 
+line 5677, in error
+    self._ydl.report_error(message, is_error=is_error)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1103, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} 
+{message}', *args, **kwargs)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1042, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: ERROR: Could not copy Chrome cookie 
+database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for 
+more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+4111, in cookiejar
+    return load_cookies(
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\cookies.py", 
+line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1634, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), 
+download, extra_info, process)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1645, in wrapper
+    return func(self, *args, **kwargs)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1780, in __extract_info
+    ie_result = ie.extract(url)
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\extractor\comm
+on.py", line 759, in extract
+    self.initialize()
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\extractor\comm
+on.py", line 668, in initialize
+    self._real_initialize()
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\extractor\yout
+ube\_video.py", line 1851, in _real_initialize
+    super()._real_initialize()
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\extractor\yout
+ube\_base.py", line 648, in _real_initialize
+    self._initialize_pref()
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\extractor\yout
+ube\_base.py", line 631, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\extractor\yout
+ube\_base.py", line 732, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\extractor\comm
+on.py", line 3768, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie
+_header(url))
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python39\lib\funct
+ools.py", line 993, in __get__
+    val = self.func(instance)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+4116, in cookiejar
+    self.report_error(str(cause), 
+tb=''.join(traceback.format_exception(None, cause, 
+cause.__traceback__)))
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1103, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} 
+{message}', *args, **kwargs)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1042, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: ERROR: ERROR: Could not copy Chrome 
+cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  
+for more info

@@ -1,5 +1,6 @@
 google-api-python-client==2.108.0
 google-auth==2.25.2
+google-auth-oauthlib==1.2.4
 python-telegram-bot==20.7
 python-dotenv==1.0.0
-yt-dlp
+pytubefix

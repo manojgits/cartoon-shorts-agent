@@ -84,7 +84,7 @@ def run(dry_run: bool = False):
     # ── Step 7: Upload to Google Drive ───────────────────────────────────────
     logger.info("☁️ Uploading to Google Drive...")
     all_videos = upload_videos(
-        service_account_file=config.SERVICE_ACCOUNT_FILE,
+        token_file=config.TOKEN_FILE,
         folder_id=config.GOOGLE_DRIVE_FOLDER_ID,
         videos=all_videos,
     )

@@ -1,0 +1,61 @@
+﻿python : Deprecated Feature: Support for Python version 3.9 has 
+been deprecated. Please update to Python 3.10 or above
+At line:1 char:48
++ ... ivate.ps1"; python -W ignore -c "import yt_dlp; ydl_opts = 
+{'format': ...
++                 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Deprecated Feat...n 3. 
+   10 or above:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[youtube] Extracting URL: https://www.youtube.com/shorts/2g3s1PTZ590
+[youtube] 2g3s1PTZ590: Downloading webpage
+[youtube] 2g3s1PTZ590: Downloading mweb client config
+[youtube] 2g3s1PTZ590: Downloading mweb player API JSON
+ERROR: [youtube] 2g3s1PTZ590: Video unavailable
+Traceback (most recent call last):
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1645, in wrapper
+    return func(self, *args, **kwargs)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1780, in __extract_info
+    ie_result = ie.extract(url)
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\extractor\comm
+on.py", line 762, in extract
+    ie_result = self._real_extract(url)
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\extractor\yout
+ube\_video.py", line 4001, in _real_extract
+    self.raise_no_formats(reason, expected=True)
+  File "E:\Antigravity\.venv\lib\site-packages\yt_dlp\extractor\comm
+on.py", line 1274, in raise_no_formats
+    raise ExtractorError(msg, expected=expected, video_id=video_id)
+yt_dlp.utils.ExtractorError: [youtube] 2g3s1PTZ590: Video 
+unavailable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1634, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), 
+download, extra_info, process)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1663, in wrapper
+    self.report_error(str(e), e.format_traceback())
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1103, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} 
+{message}', *args, **kwargs)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1042, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: ERROR: [youtube] 2g3s1PTZ590: Video 
+unavailable

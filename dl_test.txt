@@ -1,0 +1,77 @@
+﻿python : Deprecated Feature: Support for Python version 3.9 has 
+been deprecated. Please update to Python 3.10 or above
+At line:1 char:48
++ ... ivate.ps1"; python -W ignore -c "import yt_dlp; ydl_opts = 
+{'format': ...
++                 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Deprecated Feat...n 3. 
+   10 or above:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[youtube] Extracting URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+[youtube] dQw4w9WgXcQ: Downloading webpage
+[youtube] dQw4w9WgXcQ: Downloading ios player API JSON
+WARNING: [youtube] dQw4w9WgXcQ: ios client https formats require a 
+GVS PO Token which was not provided. They will be skipped as they 
+may yield HTTP Error 403. You can manually pass a GVS PO Token for 
+this client with --extractor-args "youtube:po_token=ios.gvs+XXX". 
+For more information, refer to  
+https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide
+WARNING: [youtube] dQw4w9WgXcQ: ios client hls formats require a 
+GVS PO Token which was not provided. They will be skipped as they 
+may yield HTTP Error 403. You can manually pass a GVS PO Token for 
+this client with --extractor-args "youtube:po_token=ios.gvs+XXX". 
+For more information, refer to  
+https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide
+WARNING: Only images are available for download. use --list-formats 
+to see them
+ERROR: [youtube] dQw4w9WgXcQ: Requested format is not available. 
+Use --list-formats for a list of available formats
+Traceback (most recent call last):
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1645, in wrapper
+    return func(self, *args, **kwargs)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1801, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1860, in process_ie_result
+    ie_result = self.process_video_result(ie_result, 
+download=download)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+3000, in process_video_result
+    raise ExtractorError(
+yt_dlp.utils.ExtractorError: [youtube] dQw4w9WgXcQ: Requested 
+format is not available. Use --list-formats for a list of available 
+formats
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1634, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), 
+download, extra_info, process)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1663, in wrapper
+    self.report_error(str(e), e.format_traceback())
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1103, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} 
+{message}', *args, **kwargs)
+  File 
+"E:\Antigravity\.venv\lib\site-packages\yt_dlp\YoutubeDL.py", line 
+1042, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: ERROR: [youtube] dQw4w9WgXcQ: Requested 
+format is not available. Use --list-formats for a list of available 
+formats

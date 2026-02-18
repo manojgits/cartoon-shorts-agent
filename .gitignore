@@ -3,6 +3,7 @@
 *.json
 !posted_videos.json
 downloads/
+cookies.txt
 .venv/
 venv/
 env/
