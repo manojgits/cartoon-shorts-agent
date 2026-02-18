@@ -26,8 +26,9 @@ jobs:
       - name: 📦 Install dependencies
         run: pip install -r requirements.txt
 
-      - name: 🔑 Create service account file
-        run: echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}' > service_account.json
+      - name: 🔑 Create Google Drive token file
+        if: ${{ secrets.GOOGLE_DRIVE_TOKEN_JSON != '' }}
+        run: echo '${{ secrets.GOOGLE_DRIVE_TOKEN_JSON }}' > token.json
 
       - name: 🤖 Run Cartoon Agent
         env:
@@ -35,7 +36,6 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
-          SERVICE_ACCOUNT_FILE: service_account.json
         run: python main.py
 
       - name: 💾 Commit updated posted_videos.json
@@ -48,4 +48,4 @@ jobs:
 
       - name: 🧹 Cleanup
         if: always()
-        run: rm -f service_account.json && rm -rf downloads/
+        run: rm -f token.json && rm -rf downloads/
