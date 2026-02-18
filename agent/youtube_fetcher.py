@@ -114,12 +114,9 @@ def _parse_duration(duration_str: str) -> int:
     return hours * 3600 + minutes * 60 + seconds
 
 
-def fetch_trending_cartoons(api_key: str, queries: list, max_age_hours: int = 48) -> list:
+def fetch_trending_cartoons(api_key: str, queries: list, max_age_hours: int = 24) -> list:
     """
-    Main entry point: search multiple queries and return combined video details.
-
-    This fetches from multiple search queries to get a diverse set of cartoon videos,
-    then fetches detailed stats for all of them.
+    Fetch videos from YouTube, returning combined video details.
     """
     all_video_ids = []
     seen_ids = set()
@@ -142,3 +139,19 @@ def fetch_trending_cartoons(api_key: str, queries: list, max_age_hours: int = 48
         all_videos.extend(details)
 
     return all_videos
+
+
+def fetch_shorts(api_key: str, queries: list, max_age_hours: int = 24) -> list:
+    """Fetch only Shorts (≤60 seconds)."""
+    videos = fetch_trending_cartoons(api_key, queries, max_age_hours)
+    shorts = [v for v in videos if v["duration_seconds"] <= 60]
+    logger.info(f"Filtered to {len(shorts)} Shorts (≤60s) from {len(videos)} total")
+    return shorts
+
+
+def fetch_full_length(api_key: str, queries: list, max_age_hours: int = 24) -> list:
+    """Fetch only full-length videos (>60 seconds)."""
+    videos = fetch_trending_cartoons(api_key, queries, max_age_hours)
+    full = [v for v in videos if v["duration_seconds"] > 60]
+    logger.info(f"Filtered to {len(full)} full-length (>60s) from {len(videos)} total")
+    return full

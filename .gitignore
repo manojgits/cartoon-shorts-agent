@@ -1,5 +1,8 @@
-# Environment
+# Environment & Secrets
 .env
+*.json
+!posted_videos.json
+downloads/
 .venv/
 venv/
 env/

@@ -1,7 +1,8 @@
 """
-Cartoon Shorts Agent — Main Orchestrator
+Cartoon Agent — Main Orchestrator
 
-Finds trending cartoon YouTube Shorts and posts them to your Telegram channel.
+Finds trending cartoon YouTube Shorts + full-length videos,
+downloads them, uploads to Google Drive, and notifies you on Telegram.
 Run with: python main.py [--dry-run]
 """
 
@@ -11,9 +12,11 @@ import random
 import sys
 
 import config
-from agent.youtube_fetcher import fetch_trending_cartoons
+from agent.youtube_fetcher import fetch_shorts, fetch_full_length
 from agent.ranker import get_top_videos
 from agent.dedup import load_posted_ids, add_posted_ids
+from agent.downloader import download_videos
+from agent.drive_uploader import upload_videos, cleanup_downloads
 from agent.telegram_poster import post_to_telegram
 
 # ─── Logging Setup ───────────────────────────────────────────────────────────────
@@ -39,74 +42,80 @@ def run(dry_run: bool = False):
         logger.error(f"Config error: {e}")
         sys.exit(1)
 
-    # ── Step 2: Pick a random subset of queries for variety ──────────────────
-    num_queries = min(4, len(config.SEARCH_QUERIES))
-    queries = random.sample(config.SEARCH_QUERIES, num_queries)
-    logger.info(f"📝 Using {num_queries} search queries: {queries}")
-
-    # ── Step 3: Fetch trending cartoons from YouTube ─────────────────────────
-    logger.info("🔍 Searching YouTube for trending cartoons...")
-    videos = fetch_trending_cartoons(
-        api_key=config.YOUTUBE_API_KEY,
-        queries=queries,
-        max_age_hours=config.MAX_VIDEO_AGE_HOURS,
-    )
-
-    if not videos:
-        logger.warning("⚠️  No videos found. Try adjusting search queries or age window.")
-        return
-
-    logger.info(f"📊 Found {len(videos)} cartoon videos total")
-
-    # ── Step 4: Load dedup tracker and rank videos ───────────────────────────
+    # ── Step 2: Load dedup tracker ───────────────────────────────────────────
     posted_ids = load_posted_ids(config.POSTED_VIDEOS_FILE)
-    top_videos = get_top_videos(
-        videos,
-        posted_ids=posted_ids,
-        max_count=config.MAX_POSTS_PER_RUN,
-        max_age_hours=config.MAX_VIDEO_AGE_HOURS,
-    )
 
-    if not top_videos:
-        logger.info("✅ All found videos have already been posted. Nothing new to share.")
+    # ── Step 3: Fetch & rank SHORTS ──────────────────────────────────────────
+    logger.info("⚡ Fetching trending cartoon Shorts (≤60s)...")
+    shorts_queries = random.sample(config.SHORTS_QUERIES, min(3, len(config.SHORTS_QUERIES)))
+    shorts = fetch_shorts(config.YOUTUBE_API_KEY, shorts_queries, config.MAX_VIDEO_AGE_HOURS)
+    top_shorts = get_top_videos(shorts, posted_ids, max_count=config.NUM_SHORTS, max_age_hours=config.MAX_VIDEO_AGE_HOURS)
+    logger.info(f"📊 Selected {len(top_shorts)} Shorts")
+
+    # ── Step 4: Fetch & rank FULL-LENGTH ─────────────────────────────────────
+    logger.info("🎥 Fetching trending full-length cartoons (>60s)...")
+    full_queries = random.sample(config.FULL_LENGTH_QUERIES, min(3, len(config.FULL_LENGTH_QUERIES)))
+    full_videos = fetch_full_length(config.YOUTUBE_API_KEY, full_queries, config.MAX_VIDEO_AGE_HOURS)
+    top_full = get_top_videos(full_videos, posted_ids, max_count=config.NUM_FULL_LENGTH, max_age_hours=config.MAX_VIDEO_AGE_HOURS)
+    logger.info(f"📊 Selected {len(top_full)} full-length videos")
+
+    # ── Step 5: Combine all videos ───────────────────────────────────────────
+    all_videos = top_shorts + top_full
+    if not all_videos:
+        logger.warning("⚠️  No new videos found. Try adjusting queries or age window.")
         return
 
-    # ── Step 5: Display results ──────────────────────────────────────────────
-    logger.info(f"\n🏆 Top {len(top_videos)} videos to post:")
-    for i, v in enumerate(top_videos, 1):
+    logger.info(f"\n🏆 Top {len(all_videos)} videos to post:")
+    for i, v in enumerate(all_videos, 1):
+        vtype = "Short" if v["duration_seconds"] <= 60 else "Full"
         logger.info(
-            f"  {i}. [{v['score']:.3f}] {v['title'][:60]} "
+            f"  {i}. [{vtype}] [{v['score']:.3f}] {v['title'][:50]} "
             f"(👁 {v['views']:,} | ❤️ {v['likes']:,})"
         )
 
-    # ── Step 6: Post to Telegram (or dry-run) ────────────────────────────────
     if dry_run:
-        logger.info("🏃 DRY RUN — skipping Telegram posting.")
-        logger.info("Run without --dry-run to actually post to your channel.")
-    else:
-        logger.info("📤 Posting to Telegram...")
-        post_to_telegram(
-            bot_token=config.TELEGRAM_BOT_TOKEN,
-            chat_id=config.TELEGRAM_CHANNEL_ID,
-            videos=top_videos,
-        )
+        logger.info("🏃 DRY RUN — skipping download, upload, and Telegram posting.")
+        return
 
-        # ── Step 7: Update dedup tracker ─────────────────────────────────────
-        new_ids = [v["video_id"] for v in top_videos]
-        add_posted_ids(config.POSTED_VIDEOS_FILE, new_ids)
+    # ── Step 6: Download videos ──────────────────────────────────────────────
+    logger.info("⬇️ Downloading videos...")
+    all_videos = download_videos(all_videos, config.DOWNLOADS_DIR)
+
+    # ── Step 7: Upload to Google Drive ───────────────────────────────────────
+    logger.info("☁️ Uploading to Google Drive...")
+    all_videos = upload_videos(
+        service_account_file=config.SERVICE_ACCOUNT_FILE,
+        folder_id=config.GOOGLE_DRIVE_FOLDER_ID,
+        videos=all_videos,
+    )
+
+    # ── Step 8: Post to Telegram ─────────────────────────────────────────────
+    logger.info("📤 Sending to Telegram...")
+    post_to_telegram(
+        bot_token=config.TELEGRAM_BOT_TOKEN,
+        chat_id=config.TELEGRAM_CHANNEL_ID,
+        videos=all_videos,
+    )
+
+    # ── Step 9: Update dedup tracker ─────────────────────────────────────────
+    new_ids = [v["video_id"] for v in all_videos]
+    add_posted_ids(config.POSTED_VIDEOS_FILE, new_ids)
+
+    # ── Step 10: Cleanup downloads ───────────────────────────────────────────
+    cleanup_downloads(config.DOWNLOADS_DIR)
 
     # ── Done ─────────────────────────────────────────────────────────────────
     logger.info("=" * 60)
-    logger.info(f"✅ Run complete! Posted {len(top_videos)} videos.")
+    logger.info(f"✅ Run complete! Sent {len(all_videos)} videos.")
     logger.info("=" * 60)
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Cartoon Shorts Agent")
+    parser = argparse.ArgumentParser(description="Cartoon Agent")
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="Fetch and rank videos without posting to Telegram",
+        help="Fetch and rank videos without downloading/posting",
     )
     args = parser.parse_args()
     run(dry_run=args.dry_run)

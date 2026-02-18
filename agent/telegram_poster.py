@@ -43,9 +43,14 @@ def _build_message(video: dict, index: int) -> str:
     score = video.get("score", 0)
     duration = _format_duration(video.get("duration_seconds", 0))
     url = f"https://www.youtube.com/watch?v={video_id}"
+    drive_link = video.get("drive_link", "")
+
+    # Determine type label
+    is_short = video.get("duration_seconds", 0) <= 60
+    type_label = "⚡ Short" if is_short else "🎥 Full Video"
 
     message = (
-        f"🎬 <b>Trending Cartoon #{index}</b>\n"
+        f"🎬 <b>Trending Cartoon #{index}</b> ({type_label})\n"
         f"\n"
         f"📌 <b>{title}</b>\n"
         f"📺 {channel}\n"
@@ -55,6 +60,12 @@ def _build_message(video: dict, index: int) -> str:
         f"⭐ Trend Score: <b>{score:.2f}</b>\n"
         f"\n"
         f"🔗 <a href=\"{url}\">Watch on YouTube</a>\n"
+    )
+
+    if drive_link:
+        message += f"📥 <a href=\"{drive_link}\">Download from Google Drive</a>\n"
+
+    message += (
         f"\n"
         f"━━━━━━━━━━━━━━━━━━━━━━\n"
         f"🤖 <i>Found by Cartoon Agent</i>"
