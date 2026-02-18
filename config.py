@@ -15,7 +15,7 @@ TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
 
 # ─── Agent Settings ─────────────────────────────────────────────────────────────
 MAX_POSTS_PER_RUN = int(os.environ.get("MAX_POSTS_PER_RUN", "3"))
-MAX_VIDEO_AGE_HOURS = int(os.environ.get("MAX_VIDEO_AGE_HOURS", "48"))
+MAX_VIDEO_AGE_HOURS = int(os.environ.get("MAX_VIDEO_AGE_HOURS", "24"))
 
 # Search queries to find trending cartoons (rotated each run for variety)
 SEARCH_QUERIES = [
