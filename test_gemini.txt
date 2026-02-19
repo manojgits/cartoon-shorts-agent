@@ -1,0 +1,130 @@
+﻿python : E:\Antigravi
+ty\.venv\lib\site-pac
+kages\google\api_core
+\_python_version_supp
+ort.py:246: 
+FutureWarning: You 
+are using a 
+non-supported Python 
+version (3.9.10). 
+Google will not post 
+any further updates 
+to google.api_core 
+supporting this 
+Python version. 
+Please upgrade to 
+the latest Python 
+version, or at least 
+Python 3.10, and 
+then update 
+google.api_core.
+At line:1 char:48
++ & "e:\Antigravity\.
+venv\Scripts\Activate
+.ps1"; python -c "
++                    
+                     
+       ~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (E:\Anti   
+ gravity\...oogle    
+.api_core.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+  warnings.warn(messa
+ge, FutureWarning)
+E:\Antigravity\.venv\
+lib\site-packages\goo
+gle\auth\__init__.py:
+54: FutureWarning: 
+You are using a 
+Python version 3.9 
+past its end of 
+life. Google will 
+update google-auth 
+with critical bug 
+fixes on a 
+best-effort basis, 
+but not with any 
+other fixes or 
+features. Please 
+upgrade your Python 
+version, and then 
+update google-auth.
+  warnings.warn(eol_m
+essage.format("3.9"),
+ FutureWarning)
+E:\Antigravity\.venv\
+lib\site-packages\goo
+gle\oauth2\__init__.p
+y:40: FutureWarning: 
+You are using a 
+Python version 3.9 
+past its end of 
+life. Google will 
+update google-auth 
+with critical bug 
+fixes on a 
+best-effort basis, 
+but not with any 
+other fixes or 
+features. Please 
+upgrade your Python 
+version, and then 
+update google-auth.
+  warnings.warn(eol_m
+essage.format("3.9"),
+ FutureWarning)
+E:\Antigravity\agent\
+gemini_seo.py:11: 
+FutureWarning: 
+
+All support for the `
+google.generativeai` 
+package has ended. 
+It will no longer be 
+receiving 
+updates or bug 
+fixes. Please switch 
+to the 
+`google.genai` 
+package as soon as 
+possible.
+See README for more 
+details:
+
+https://github.com/go
+ogle-gemini/deprecate
+d-generative-ai-pytho
+n/blob/main/README.md
+
+  import 
+google.generativeai 
+as genai
+Traceback (most 
+recent call last):
+  File "<string>", 
+line 11, in <module>
+  File "C:\Users\HP\A
+ppData\Local\Programs
+\Python\Python39\lib\
+encodings\cp1252.py",
+ line 19, in encode
+    return codecs.cha
+rmap_encode(input,sel
+f.errors,encoding_tab
+le)[0]
+UnicodeEncodeError: 
+'charmap' codec 
+can't encode 
+characters in 
+position 0-1: 
+character maps to 
+<undefined>
+=== Testing Gemini SEO ===
+Title: 

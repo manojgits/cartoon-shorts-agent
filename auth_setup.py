@@ -1,20 +1,26 @@
 """
-One-time Google Drive authorization — run this to generate token.json.
+One-time Google authorization — run this to generate token.json.
 
 Usage: python auth_setup.py
 
-This will open your browser to authorize access to your Google Drive.
+This will open your browser to authorize access to:
+  - Google Drive (upload videos)
+  - YouTube (upload to your channel, set thumbnails)
+
 The resulting token is saved as token.json and used by the agent.
 """
 
-import json
 import os
 
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 
-SCOPES = ["https://www.googleapis.com/auth/drive.file"]
+SCOPES = [
+    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/youtube.upload",
+    "https://www.googleapis.com/auth/youtube.force-ssl",
+]
 TOKEN_FILE = os.path.join(os.path.dirname(__file__), "token.json")
 CREDENTIALS_FILE = os.path.join(os.path.dirname(__file__), "credentials.json")
 
@@ -51,13 +57,18 @@ def main():
         print("   in the project folder (e:\\Antigravity\\)")
         return
 
+    # Delete old token to force re-auth with new scopes
+    if os.path.exists(TOKEN_FILE):
+        os.remove(TOKEN_FILE)
+        print("🔄 Removed old token to re-authorize with new scopes...")
+
     # Run authorization flow
-    print("🔑 Opening browser for Google Drive authorization...")
+    print("🔑 Opening browser for Google Drive + YouTube authorization...")
     flow = InstalledAppFlow.from_client_secrets_file(CREDENTIALS_FILE, SCOPES)
     creds = flow.run_local_server(port=0)
     _save_token(creds)
     print("✅ Authorization successful! token.json saved.")
-    print("   The agent can now upload videos to your Google Drive.")
+    print("   The agent can now upload videos to Drive and YouTube.")
 
 
 def _save_token(creds):

@@ -1,0 +1,1127 @@
+﻿python : 00:58:10 
+\u2502 INFO    
+\u2502 agent \u2502 =
+=====================
+=====================
+=================
+At line:1 char:213
++ ... ty\.venv\Script
+s\Activate.ps1"; 
+python -W ignore 
+main.py 2>&1 | Out-F 
+...
++                    
+                 ~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (00:58:1   
+ 0 \u2502...=====    
+==========:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+00:58:10 \u2502 INFO 
+   \u2502 agent 
+\u2502 \U0001f916 
+Cartoon Agent ù 
+Starting run
+00:58:10 \u2502 INFO 
+   \u2502 agent 
+\u2502 ==============
+=====================
+=====================
+====
+00:58:10 \u2502 INFO 
+   \u2502 
+agent.dedup \u2502 
+No dedup file found 
+at E:\Antigravity\pos
+ted_videos.json, 
+starting fresh.
+00:58:10 \u2502 INFO 
+   \u2502 agent 
+\u2502 \u26a1 
+Fetching trending 
+cartoon Shorts 
+(\u226460s)...
+00:58:10 \u2502 INFO 
+   \u2502 agent.youtu
+be_fetcher \u2502 
+Searching YouTube 
+for: 'animated 
+shorts funny'
+00:58:10 \u2502 INFO 
+   \u2502 googleapicl
+ient.discovery_cache 
+\u2502 file_cache is 
+only supported with 
+oauth2client<4.0.0
+00:58:11 \u2502 INFO 
+   \u2502 agent.youtu
+be_fetcher \u2502 
+Searching YouTube 
+for: 'animation 
+shorts viral'
+00:58:11 \u2502 INFO 
+   \u2502 googleapicl
+ient.discovery_cache 
+\u2502 file_cache is 
+only supported with 
+oauth2client<4.0.0
+00:58:11 \u2502 INFO 
+   \u2502 agent.youtu
+be_fetcher \u2502 
+Searching YouTube 
+for: 'cartoon shorts 
+trending'
+00:58:11 \u2502 INFO 
+   \u2502 googleapicl
+ient.discovery_cache 
+\u2502 file_cache is 
+only supported with 
+oauth2client<4.0.0
+00:58:12 \u2502 INFO 
+   \u2502 agent.youtu
+be_fetcher \u2502 
+Found 29 unique 
+video IDs across 3 
+queries
+00:58:12 \u2502 INFO 
+   \u2502 googleapicl
+ient.discovery_cache 
+\u2502 file_cache is 
+only supported with 
+oauth2client<4.0.0
+00:58:13 \u2502 INFO 
+   \u2502 agent.youtu
+be_fetcher \u2502 
+Fetched details for 
+29 videos from 29 
+candidates
+00:58:13 \u2502 INFO 
+   \u2502 agent.youtu
+be_fetcher \u2502 
+Filtered to 27 
+Shorts (\u226460s) 
+from 29 total
+00:58:13 \u2502 INFO 
+   \u2502 
+agent.ranker \u2502 
+Ranked 27 videos. 
+Top score: 0.5443
+00:58:13 \u2502 INFO 
+   \u2502 
+agent.ranker \u2502 
+Selected 2 new 
+videos to post 
+(skipped 0 
+already-posted)
+00:58:13 \u2502 INFO 
+   \u2502 agent 
+\u2502 \U0001f4ca 
+Selected 2 Shorts
+00:58:13 \u2502 INFO 
+   \u2502 agent 
+\u2502 \U0001f3a5 
+Fetching trending 
+full-length cartoons 
+(>60s)...
+00:58:13 \u2502 INFO 
+   \u2502 agent.youtu
+be_fetcher \u2502 
+Searching YouTube 
+for: 'trending 
+cartoon full episode'
+00:58:13 \u2502 INFO 
+   \u2502 googleapicl
+ient.discovery_cache 
+\u2502 file_cache is 
+only supported with 
+oauth2client<4.0.0
+00:58:13 \u2502 INFO 
+   \u2502 agent.youtu
+be_fetcher \u2502 
+Searching YouTube 
+for: 'animated 
+comedy compilation'
+00:58:13 \u2502 INFO 
+   \u2502 googleapicl
+ient.discovery_cache 
+\u2502 file_cache is 
+only supported with 
+oauth2client<4.0.0
+00:58:14 \u2502 INFO 
+   \u2502 agent.youtu
+be_fetcher \u2502 
+Searching YouTube 
+for: 'best cartoon 
+scenes'
+00:58:14 \u2502 INFO 
+   \u2502 googleapicl
+ient.discovery_cache 
+\u2502 file_cache is 
+only supported with 
+oauth2client<4.0.0
+00:58:15 \u2502 INFO 
+   \u2502 agent.youtu
+be_fetcher \u2502 
+Found 29 unique 
+video IDs across 3 
+queries
+00:58:15 \u2502 INFO 
+   \u2502 googleapicl
+ient.discovery_cache 
+\u2502 file_cache is 
+only supported with 
+oauth2client<4.0.0
+00:58:15 \u2502 INFO 
+   \u2502 agent.youtu
+be_fetcher \u2502 
+Fetched details for 
+29 videos from 29 
+candidates
+00:58:15 \u2502 INFO 
+   \u2502 agent.youtu
+be_fetcher \u2502 
+Filtered to 16 
+full-length (>60s) 
+from 29 total
+00:58:15 \u2502 INFO 
+   \u2502 
+agent.ranker \u2502 
+Ranked 16 videos. 
+Top score: 0.7103
+00:58:15 \u2502 INFO 
+   \u2502 
+agent.ranker \u2502 
+Selected 2 new 
+videos to post 
+(skipped 0 
+already-posted)
+00:58:15 \u2502 INFO 
+   \u2502 agent 
+\u2502 \U0001f4ca 
+Selected 2 
+full-length videos
+00:58:15 \u2502 INFO 
+   \u2502 agent 
+\u2502 
+\U0001f3c6 Top 4 
+videos to post:
+00:58:15 \u2502 INFO 
+   \u2502 agent 
+\u2502   1. [Short] 
+[0.544] Boll Lege TV 
+Venge Gelo 
+\U0001f630 #cartoon 
+#youtubeshorts  
+(\U0001f441 872,343 
+| \u2764\ufe0f 0)
+00:58:15 \u2502 INFO 
+   \u2502 agent 
+\u2502   2. [Short] 
+[0.420] Mario Bee 
+lnside Ear animation 
+meme#shorts #roblox 
+(\U0001f441 729,565 
+| \u2764\ufe0f 1,963)
+00:58:15 \u2502 INFO 
+   \u2502 agent 
+\u2502   3. [Full] 
+[0.710] Sakura 
+school simulator \U00
+01f602\U0001f633#saku
+raschoolsimulator # 
+(\U0001f441 34,530 | 
+\u2764\ufe0f 582)
+00:58:15 \u2502 INFO 
+   \u2502 agent 
+\u2502   4. [Full] 
+[0.448] FUNNY 
+RELATABLE SITUATIONS 
+| 2D ANIMATION 
+COMEDY C (\U0001f441 
+6 | \u2764\ufe0f 3)
+00:58:15 \u2502 INFO 
+   \u2502 agent 
+\u2502 \u2b07\ufe0f 
+Downloading videos...
+00:58:18 \u2502 INFO 
+   \u2502 
+agent.downloader 
+\u2502 \u2705 
+Downloaded: Boll 
+Lege TV Venge Gelo 
+\U0001f630 #cartoon 
+#youtubeshorts 
+#shortsfeed #shorts 
+#trending 
+#cartoonshorts (1.6 
+MB)
+00:58:20 \u2502 INFO 
+   \u2502 
+agent.downloader 
+\u2502 \u2705 
+Downloaded: Mario 
+Bee lnside Ear 
+animation 
+meme#shorts #roblox 
+#viral #meme 
+#viralvideo #youtube 
+#cat #trending (0.4 
+MB)
+00:58:53 \u2502 
+WARNING \u2502 
+agent.downloader 
+\u2502 \u26a0\ufe0f 
+Could not download 
+'Sakura school 
+simulator \U0001f602\
+U0001f633#sakuraschoo
+lsimulator #viral 
+#funny #cartoon 
+#trending ': 
+[WinError 10053] An 
+established 
+connection was 
+aborted by the 
+software in your 
+host machine
+00:58:53 \u2502 
+WARNING \u2502 
+agent.downloader 
+\u2502 \u26a0\ufe0f 
+Could not download 
+'FUNNY RELATABLE 
+SITUATIONS | 2D 
+ANIMATION COMEDY 
+COMPILATION | 
+BORN2SHINE 
+@Cartoonwala251 ': 
+<urlopen error 
+[Errno 11001] 
+getaddrinfo failed>
+00:58:53 \u2502 INFO 
+   \u2502 
+agent.downloader 
+\u2502 Downloaded 
+2/4 videos 
+successfully
+00:58:53 \u2502 INFO 
+   \u2502 agent 
+\u2502 \u2728 
+Generating SEO with 
+Gemini AI...
+01:02:53 \u2502 
+WARNING \u2502 
+agent.gemini_seo 
+\u2502 \u26a0\ufe0f 
+Gemini SEO 
+generation failed: 
+429 You exceeded 
+your current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. 
+* Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: 
+gemini-2.0-flash
+* Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: 
+gemini-2.0-flash
+* Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_input_token_cou
+nt, limit: 0, model: 
+gemini-2.0-flash
+Please retry in 
+59.245159799s. 
+[links {
+  description: 
+"Learn more about 
+Gemini API quotas"
+  url: "https://ai.go
+ogle.dev/gemini-api/d
+ocs/rate-limits"
+}
+, violations {
+  quota_metric: "gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts"
+  quota_id: "Generate
+RequestsPerDayPerProj
+ectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: 
+"gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts"
+  quota_id: "Generate
+RequestsPerMinutePerP
+rojectPerModel-FreeTi
+er"
+  quota_dimensions {
+    key: "model"
+    value: 
+"gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_input_
+token_count"
+  quota_id: "Generate
+ContentInputTokensPer
+ModelPerMinute-FreeTi
+er"
+  quota_dimensions {
+    key: "model"
+    value: 
+"gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 59
+}
+]
+01:02:54 \u2502 
+WARNING \u2502 
+agent.gemini_seo 
+\u2502 \u26a0\ufe0f 
+Gemini SEO 
+generation failed: 
+429 You exceeded 
+your current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. 
+* Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_input_token_cou
+nt, limit: 0, model: 
+gemini-2.0-flash
+* Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: 
+gemini-2.0-flash
+* Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: 
+gemini-2.0-flash
+Please retry in 
+58.162805869s. 
+[links {
+  description: 
+"Learn more about 
+Gemini API quotas"
+  url: "https://ai.go
+ogle.dev/gemini-api/d
+ocs/rate-limits"
+}
+, violations {
+  quota_metric: "gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_input_
+token_count"
+  quota_id: "Generate
+ContentInputTokensPer
+ModelPerMinute-FreeTi
+er"
+  quota_dimensions {
+    key: "model"
+    value: 
+"gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts"
+  quota_id: "Generate
+RequestsPerMinutePerP
+rojectPerModel-FreeTi
+er"
+  quota_dimensions {
+    key: "model"
+    value: 
+"gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts"
+  quota_id: "Generate
+RequestsPerDayPerProj
+ectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: 
+"gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 58
+}
+]
+01:02:55 \u2502 
+WARNING \u2502 
+agent.gemini_seo 
+\u2502 \u26a0\ufe0f 
+Gemini SEO 
+generation failed: 
+429 You exceeded 
+your current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. 
+* Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_input_token_cou
+nt, limit: 0, model: 
+gemini-2.0-flash
+* Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: 
+gemini-2.0-flash
+* Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: 
+gemini-2.0-flash
+Please retry in 
+57.255153987s. 
+[links {
+  description: 
+"Learn more about 
+Gemini API quotas"
+  url: "https://ai.go
+ogle.dev/gemini-api/d
+ocs/rate-limits"
+}
+, violations {
+  quota_metric: "gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_input_
+token_count"
+  quota_id: "Generate
+ContentInputTokensPer
+ModelPerMinute-FreeTi
+er"
+  quota_dimensions {
+    key: "model"
+    value: 
+"gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts"
+  quota_id: "Generate
+RequestsPerMinutePerP
+rojectPerModel-FreeTi
+er"
+  quota_dimensions {
+    key: "model"
+    value: 
+"gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts"
+  quota_id: "Generate
+RequestsPerDayPerProj
+ectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: 
+"gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 57
+}
+]
+01:02:56 \u2502 
+WARNING \u2502 
+agent.gemini_seo 
+\u2502 \u26a0\ufe0f 
+Gemini SEO 
+generation failed: 
+429 You exceeded 
+your current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. 
+* Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: 
+gemini-2.0-flash
+* Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: 
+gemini-2.0-flash
+* Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_input_token_cou
+nt, limit: 0, model: 
+gemini-2.0-flash
+Please retry in 
+56.32165329s. [links 
+{
+  description: 
+"Learn more about 
+Gemini API quotas"
+  url: "https://ai.go
+ogle.dev/gemini-api/d
+ocs/rate-limits"
+}
+, violations {
+  quota_metric: "gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts"
+  quota_id: "Generate
+RequestsPerDayPerProj
+ectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: 
+"gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts"
+  quota_id: "Generate
+RequestsPerMinutePerP
+rojectPerModel-FreeTi
+er"
+  quota_dimensions {
+    key: "model"
+    value: 
+"gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_input_
+token_count"
+  quota_id: "Generate
+ContentInputTokensPer
+ModelPerMinute-FreeTi
+er"
+  quota_dimensions {
+    key: "model"
+    value: 
+"gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 56
+}
+]
+01:02:56 \u2502 INFO 
+   \u2502 agent 
+\u2502 \U0001f3a8 
+Generating AI 
+thumbnails with Nano 
+Banana...
+01:02:57 \u2502 
+WARNING \u2502 agent.
+thumbnail_maker 
+\u2502 \u26a0\ufe0f 
+Thumbnail generation 
+failed: 404 models/ge
+mini-2.0-flash-exp 
+is not found for API 
+version v1beta, or 
+is not supported for 
+generateContent. 
+Call ListModels to 
+see the list of 
+available models and 
+their supported 
+methods.
+01:02:58 \u2502 
+WARNING \u2502 agent.
+thumbnail_maker 
+\u2502 \u26a0\ufe0f 
+Thumbnail generation 
+failed: 404 models/ge
+mini-2.0-flash-exp 
+is not found for API 
+version v1beta, or 
+is not supported for 
+generateContent. 
+Call ListModels to 
+see the list of 
+available models and 
+their supported 
+methods.
+01:02:58 \u2502 INFO 
+   \u2502 agent 
+\u2502 \U0001f3ac 
+Uploading to YouTube 
+channel...
+01:02:58 \u2502 INFO 
+   \u2502 googleapicl
+ient.discovery_cache 
+\u2502 file_cache is 
+only supported with 
+oauth2client<4.0.0
+01:03:02 \u2502 INFO 
+   \u2502 agent.youtu
+be_uploader \u2502   
+\u2191 Upload 
+progress: 63%
+01:03:05 \u2502 INFO 
+   \u2502 agent.youtu
+be_uploader \u2502 
+\u2705 Uploaded to 
+YouTube: Boll Lege 
+TV Venge Gelo 
+\U0001f630 #cartoon 
+#youtubeshorts 
+#shortsfeed #shorts 
+#trending 
+#cartoonshorts 
+\u2192 https://www.yo
+utube.com/watch?v=_ZQ
+JYqXTeYw
+01:03:05 \u2502 INFO 
+   \u2502 googleapicl
+ient.discovery_cache 
+\u2502 file_cache is 
+only supported with 
+oauth2client<4.0.0
+01:03:10 \u2502 INFO 
+   \u2502 agent.youtu
+be_uploader \u2502 
+\u2705 Uploaded to 
+YouTube: Mario Bee 
+lnside Ear animation 
+meme#shorts #roblox 
+#viral #meme 
+#viralvideo #youtube 
+#cat #trending 
+\u2192 https://www.yo
+utube.com/watch?v=BJU
+RnPimwv8
+01:03:10 \u2502 INFO 
+   \u2502 agent.youtu
+be_uploader \u2502 
+Uploaded 2/4 videos 
+to YouTube
+01:03:10 \u2502 INFO 
+   \u2502 agent 
+\u2502 \u2601\ufe0f 
+Uploading to Google 
+Drive...
+01:03:10 \u2502 INFO 
+   \u2502 googleapicl
+ient.discovery_cache 
+\u2502 file_cache is 
+only supported with 
+oauth2client<4.0.0
+01:03:16 \u2502 INFO 
+   \u2502 
+agent.drive_uploader 
+\u2502 \u2705 
+Uploaded to Drive: 
+Boll Lege TV Venge 
+Gelo \U0001f630 
+#cartoon 
+#youtubeshorts 
+#shortsfeed #shorts 
+#trending 
+#cartoonshorts 
+\u2192 https://drive.
+google.com/file/d/1gM
+GZOYXzA__b5n-cg9o3K8N
+NfjN_Ev_A/view?usp=dr
+ivesdk
+01:03:16 \u2502 INFO 
+   \u2502 googleapicl
+ient.discovery_cache 
+\u2502 file_cache is 
+only supported with 
+oauth2client<4.0.0
+01:03:20 \u2502 INFO 
+   \u2502 
+agent.drive_uploader 
+\u2502 \u2705 
+Uploaded to Drive: 
+Mario Bee lnside Ear 
+animation 
+meme#shorts #roblox 
+#viral #meme 
+#viralvideo #youtube 
+#cat #trending 
+\u2192 https://drive.
+google.com/file/d/1dc
+_y2oHLbT6tJgNXvn2rD9v
+8M7ipMDt7/view?usp=dr
+ivesdk
+01:03:20 \u2502 INFO 
+   \u2502 
+agent.drive_uploader 
+\u2502 Uploaded 2/4 
+videos to Google 
+Drive
+01:03:20 \u2502 INFO 
+   \u2502 agent 
+\u2502 \U0001f4e4 
+Sending to 
+Telegram...
+01:03:20 \u2502 INFO 
+   \u2502 agent.teleg
+ram_poster \u2502 
+Sending 4 videos to 
+Telegram chat: 
+997772037
+01:03:21 \u2502 INFO 
+   \u2502 httpx 
+\u2502 HTTP Request: 
+POST https://api.tele
+gram.org/bot856617865
+0:AAE932C7HvBwu98YLnc
+xnLTWlTyYUKMcLLg/send
+Message "HTTP/1.1 
+200 OK"
+01:03:22 \u2502 INFO 
+   \u2502 httpx 
+\u2502 HTTP Request: 
+POST https://api.tele
+gram.org/bot856617865
+0:AAE932C7HvBwu98YLnc
+xnLTWlTyYUKMcLLg/send
+Photo "HTTP/1.1 200 
+OK"
+01:03:22 \u2502 INFO 
+   \u2502 agent.teleg
+ram_poster \u2502 
+\u2705 Posted: Boll 
+Lege TV Venge Gelo 
+\U0001f630 #cartoon 
+#youtubeshorts 
+#shortsfeed #shorts 
+#trending 
+#cartoonshorts
+01:03:24 \u2502 INFO 
+   \u2502 httpx 
+\u2502 HTTP Request: 
+POST https://api.tele
+gram.org/bot856617865
+0:AAE932C7HvBwu98YLnc
+xnLTWlTyYUKMcLLg/send
+Photo "HTTP/1.1 200 
+OK"
+01:03:24 \u2502 INFO 
+   \u2502 agent.teleg
+ram_poster \u2502 
+\u2705 Posted: Mario 
+Bee lnside Ear 
+animation 
+meme#shorts #roblox 
+#viral #meme 
+#viralvideo #youtube 
+#cat #trending
+01:03:27 \u2502 INFO 
+   \u2502 httpx 
+\u2502 HTTP Request: 
+POST https://api.tele
+gram.org/bot856617865
+0:AAE932C7HvBwu98YLnc
+xnLTWlTyYUKMcLLg/send
+Photo "HTTP/1.1 200 
+OK"
+01:03:27 \u2502 INFO 
+   \u2502 agent.teleg
+ram_poster \u2502 
+\u2705 Posted: 
+Sakura school 
+simulator \U0001f602\
+U0001f633#sakuraschoo
+lsimulator #viral 
+#funny #cartoon 
+#trending 
+01:03:29 \u2502 INFO 
+   \u2502 httpx 
+\u2502 HTTP Request: 
+POST https://api.tele
+gram.org/bot856617865
+0:AAE932C7HvBwu98YLnc
+xnLTWlTyYUKMcLLg/send
+Photo "HTTP/1.1 200 
+OK"
+01:03:29 \u2502 INFO 
+   \u2502 agent.teleg
+ram_poster \u2502 
+\u2705 Posted: FUNNY 
+RELATABLE SITUATIONS 
+| 2D ANIMATION 
+COMEDY COMPILATION | 
+BORN2SHINE 
+@Cartoonwala251 
+01:03:29 \u2502 INFO 
+   \u2502 agent.teleg
+ram_poster \u2502 
+Finished sending to 
+Telegram.
+01:03:29 \u2502 INFO 
+   \u2502 
+agent.dedup \u2502 
+No dedup file found 
+at E:\Antigravity\pos
+ted_videos.json, 
+starting fresh.
+01:03:29 \u2502 INFO 
+   \u2502 
+agent.dedup \u2502 
+Saved 4 posted video 
+IDs to E:\Antigravity
+\posted_videos.json
+01:03:29 \u2502 INFO 
+   \u2502 
+agent.drive_uploader 
+\u2502 
+\U0001f5d1\ufe0f 
+Cleaned up: Boll 
+Lege TV Venge Gelo 
+\U0001f630 #cartoon 
+#youtubeshorts 
+#shortsfeed #shorts 
+#trending  
+[y5Nj0zXI2YM].mp4
+01:03:29 \u2502 INFO 
+   \u2502 
+agent.drive_uploader 
+\u2502 
+\U0001f5d1\ufe0f 
+Cleaned up: Mario 
+Bee lnside Ear 
+animation 
+meme#shorts #roblox 
+#viral #meme 
+#viralvideo #you 
+[0e5sEGhp8WU].mp4
+01:03:29 \u2502 INFO 
+   \u2502 
+agent.drive_uploader 
+\u2502 
+\U0001f5d1\ufe0f 
+Cleaned up: Sakura 
+school simulator \U00
+01f602\U0001f633#saku
+raschoolsimulator 
+#viral #funny 
+#cartoon #trendin 
+[hqNpnNItbtI].mp4
+01:03:29 \u2502 INFO 
+   \u2502 agent 
+\u2502 ==============
+=====================
+=====================
+====
+01:03:29 \u2502 INFO 
+   \u2502 agent 
+\u2502 \u2705 Run 
+complete! Processed 
+4 videos.
+01:03:29 \u2502 INFO 
+   \u2502 agent 
+\u2502 ==============
+=====================
+=====================
+====
+Exception ignored 
+in: <function _Proact
+orBasePipeTransport._
+_del__ at 
+0x0000028CA94C63A0>
+Traceback (most 
+recent call last):
+  File "C:\Users\HP\A
+ppData\Local\Programs
+\Python\Python39\lib\
+asyncio\proactor_even
+ts.py", line 116, in 
+__del__
+    self.close()
+  File "C:\Users\HP\A
+ppData\Local\Programs
+\Python\Python39\lib\
+asyncio\proactor_even
+ts.py", line 108, in 
+close
+    self._loop.call_s
+oon(self._call_connec
+tion_lost, None)
+  File "C:\Users\HP\A
+ppData\Local\Programs
+\Python\Python39\lib\
+asyncio\base_events.p
+y", line 746, in 
+call_soon
+    
+self._check_closed()
+  File "C:\Users\HP\A
+ppData\Local\Programs
+\Python\Python39\lib\
+asyncio\base_events.p
+y", line 510, in 
+_check_closed
+    raise 
+RuntimeError('Event 
+loop is closed')
+RuntimeError: Event 
+loop is closed

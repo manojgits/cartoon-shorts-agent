@@ -1,0 +1,219 @@
+﻿python : 15:57:38 
+Γöé INFO    Γöé 
+agent Γöé ===========
+=====================
+=====================
+=======
+At line:1 char:158
++ ... ONIOENCODING='u
+tf-8'; python -W 
+ignore main.py 
+--dry-run 2>&1 | 
+Out-F ...
++                    
+       ~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (15:57:3   
+ 8 Γöé IN...=====    
+==========:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+15:57:38 Γöé INFO    
+Γöé agent Γöé ≡ƒñû 
+Cartoon Agent ΓÇö 
+Starting run
+15:57:38 Γöé INFO    
+Γöé agent Γöé =======
+=====================
+=====================
+===========
+15:57:38 Γöé INFO    
+Γöé agent.dedup Γöé 
+No dedup file found 
+at E:\Antigravity\pos
+ted_videos.json, 
+starting fresh.
+15:57:38 Γöé INFO    
+Γöé agent Γöé ΓÜí 
+Fetching trending 
+cartoon Shorts 
+(Γëñ60s)...
+15:57:38 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'animation shorts 
+viral'
+15:57:38 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:57:39 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 'try 
+not to laugh cartoon 
+shorts'
+15:57:39 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:57:40 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'animation meme 
+shorts trending'
+15:57:40 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:57:40 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Found 30 
+unique video IDs 
+across 3 queries
+15:57:40 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:57:41 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Fetched 
+details for 30 
+videos from 30 
+candidates
+15:57:41 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Filtered to 
+26 Shorts (Γëñ60s) 
+from 30 total
+15:57:41 Γöé INFO    
+Γöé agent.ranker Γöé 
+Ranked 26 videos. 
+Top score: 0.4732
+15:57:41 Γöé INFO    
+Γöé agent.ranker Γöé 
+Selected 1 new 
+videos to post 
+(skipped 0 
+already-posted)
+15:57:41 Γöé INFO    
+Γöé agent Γöé ≡ƒôè 
+Selected 1 Short(s)
+15:57:41 Γöé INFO    
+Γöé agent Γöé ≡ƒÄÑ 
+Fetching trending 
+full-length cartoons 
+(>60s)...
+15:57:41 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'animated comedy 
+compilation'
+15:57:41 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:57:41 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 'funny 
+cartoon compilation'
+15:57:41 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:57:42 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'cartoon funny 
+moments'
+15:57:42 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:57:42 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Found 23 
+unique video IDs 
+across 3 queries
+15:57:42 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:57:43 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Fetched 
+details for 23 
+videos from 23 
+candidates
+15:57:43 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Filtered to 
+7 full-length (>60s) 
+from 23 total
+15:57:43 Γöé INFO    
+Γöé agent.ranker Γöé 
+Ranked 7 videos. Top 
+score: 0.4394
+15:57:43 Γöé INFO    
+Γöé agent.ranker Γöé 
+Selected 1 new 
+videos to post 
+(skipped 0 
+already-posted)
+15:57:43 Γöé INFO    
+Γöé agent Γöé ≡ƒôè 
+Selected 1 
+full-length video(s)
+15:57:43 Γöé INFO    
+Γöé agent Γöé 
+≡ƒÅå Top 2 videos to 
+post:
+15:57:43 Γöé INFO    
+Γöé agent Γöé   1. 
+[Short] [0.473] 
+JESUS ANIMATION +#jes
+us#jesuschrist#jesusl
+ovesyou# (≡ƒæü 
+1,418,542 | Γ¥ñ∩╕Å 
+48,863)
+15:57:43 Γöé INFO    
+Γöé agent Γöé   2. 
+[Full] [0.439] Best 
+Falls | Stickman 
+Dismounting 
+compilation of f 
+(≡ƒæü 35,464 | 
+Γ¥ñ∩╕Å 191)
+15:57:43 Γöé INFO    
+Γöé agent Γöé ≡ƒÅâ 
+DRY RUN ΓÇö skipping 
+download, upload, 
+and Telegram posting.

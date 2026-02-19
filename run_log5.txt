@@ -1,0 +1,1215 @@
+﻿python : 15:29:37 
+Γöé INFO    Γöé 
+agent Γöé ===========
+=====================
+=====================
+=======
+At line:1 char:244
++ ...  $env:PYTHONIOE
+NCODING='utf-8'; 
+python -W ignore 
+main.py 2>&1 | Out-F 
+...
++                    
+                 ~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (15:29:3   
+ 7 Γöé IN...=====    
+==========:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+15:29:37 Γöé INFO    
+Γöé agent Γöé ≡ƒñû 
+Cartoon Agent ΓÇö 
+Starting run
+15:29:37 Γöé INFO    
+Γöé agent Γöé =======
+=====================
+=====================
+===========
+15:29:37 Γöé INFO    
+Γöé agent.dedup Γöé 
+No dedup file found 
+at E:\Antigravity\pos
+ted_videos.json, 
+starting fresh.
+15:29:37 Γöé INFO    
+Γöé agent Γöé ΓÜí 
+Fetching trending 
+cartoon Shorts 
+(Γëñ60s)...
+15:29:37 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'animation shorts 
+viral'
+15:29:37 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:29:38 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 'funny 
+cartoon shorts'
+15:29:38 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:29:39 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'cartoon meme shorts'
+15:29:39 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:29:40 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Found 29 
+unique video IDs 
+across 3 queries
+15:29:40 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:29:40 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Fetched 
+details for 29 
+videos from 29 
+candidates
+15:29:40 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Filtered to 
+26 Shorts (Γëñ60s) 
+from 29 total
+15:29:40 Γöé INFO    
+Γöé agent.ranker Γöé 
+Ranked 26 videos. 
+Top score: 0.4445
+15:29:40 Γöé INFO    
+Γöé agent.ranker Γöé 
+Selected 2 new 
+videos to post 
+(skipped 0 
+already-posted)
+15:29:40 Γöé INFO    
+Γöé agent Γöé ≡ƒôè 
+Selected 2 Shorts
+15:29:40 Γöé INFO    
+Γöé agent Γöé ≡ƒÄÑ 
+Fetching trending 
+full-length cartoons 
+(>60s)...
+15:29:40 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 'funny 
+cartoon compilation'
+15:29:40 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:29:41 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'cartoon funny 
+moments'
+15:29:41 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:29:41 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 'best 
+cartoon scenes'
+15:29:42 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:29:42 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Found 29 
+unique video IDs 
+across 3 queries
+15:29:42 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:29:43 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Fetched 
+details for 29 
+videos from 29 
+candidates
+15:29:43 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Filtered to 
+10 full-length 
+(>60s) from 29 total
+15:29:43 Γöé INFO    
+Γöé agent.ranker Γöé 
+Ranked 10 videos. 
+Top score: 0.4452
+15:29:43 Γöé INFO    
+Γöé agent.ranker Γöé 
+Selected 2 new 
+videos to post 
+(skipped 0 
+already-posted)
+15:29:43 Γöé INFO    
+Γöé agent Γöé ≡ƒôè 
+Selected 2 
+full-length videos
+15:29:43 Γöé INFO    
+Γöé agent Γöé 
+≡ƒÅå Top 4 videos to 
+post:
+15:29:43 Γöé INFO    
+Γöé agent Γöé   1. 
+[Short] [0.445] Home 
+or School Prank 
+(Animation Meme) 
+#shorts #mem (≡ƒæü 
+1,561,389 | Γ¥ñ∩╕Å 
+8,888)
+15:29:43 Γöé INFO    
+Γöé agent Γöé   2. 
+[Short] [0.338] 
+Checklist Yes or No? 
+(Animation Meme) 
+#shorts #mem (≡ƒæü 
+580,322 | Γ¥ñ∩╕Å 
+3,610)
+15:29:43 Γöé INFO    
+Γöé agent Γöé   3. 
+[Full] [0.445] Best 
+Falls | Stickman 
+Dismounting 
+compilation of f 
+(≡ƒæü 35,038 | 
+Γ¥ñ∩╕Å 188)
+15:29:43 Γöé INFO    
+Γöé agent Γöé   4. 
+[Full] [0.349] Vir 
+The Robot Boy | Best 
+Action Scenes 
+Compilation (≡ƒæü 
+28,048 | Γ¥ñ∩╕Å 144)
+15:29:43 Γöé INFO    
+Γöé agent Γöé Γ¼ç∩╕Å 
+Downloading videos...
+15:29:44 Γöé INFO    
+Γöé agent.downloader 
+Γöé Γ£à Downloaded: 
+Home or School Prank 
+(Animation Meme) 
+#shorts #memes 
+#animation #cartoon 
+#roblox #minecraft 
+#funny (0.8 MB)
+15:29:46 Γöé INFO    
+Γöé agent.downloader 
+Γöé Γ£à Downloaded: 
+Checklist Yes or No? 
+(Animation Meme) 
+#shorts #memes 
+#funny #animation 
+#minecraft 
+#animationmeme (0.9 
+MB)
+15:30:04 Γöé INFO    
+Γöé agent.downloader 
+Γöé Γ£à Downloaded: 
+Best Falls | 
+Stickman Dismounting 
+compilation of funny 
+moments RADIAL STICK 
+#700 (40.0 MB)
+15:30:05 Γöé WARNING 
+Γöé 
+pytubefix.__main__ 
+Γöé ANDROID_VR 
+client returned: 
+This video is not 
+available
+15:30:05 Γöé WARNING 
+Γöé 
+pytubefix.__main__ 
+Γöé Switching to 
+client: TV
+15:30:09 Γöé WARNING 
+Γöé agent.downloader 
+Γöé ΓÜá∩╕Å Could not 
+download 'Vir The 
+Robot Boy | Best 
+Action Scenes 
+Compilation - 382 | 
+Wow Kidz Binge': 
+8BdsQ3Ze17I This 
+request was detected 
+as a bot. DO NOT 
+OPEN AN ISSUE! See 
+more details at https
+://pytubefix.readthed
+ocs.io/en/latest/user
+/po_token.html
+15:30:09 Γöé INFO    
+Γöé agent.downloader 
+Γöé Downloaded 3/4 
+videos successfully
+15:30:09 Γöé INFO    
+Γöé agent Γöé Γ£¿ 
+Generating SEO with 
+Gemini AI...
+15:30:09 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:30:22 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh:generateContent 
+"HTTP/1.1 200 OK"
+15:30:24 Γöé INFO    
+Γöé agent.gemini_seo 
+Γöé Generated SEO 
+title: ≡ƒñ» CRAZY 
+Prank Battle: Home 
+vs School! ≡ƒÿé 
+(Animation...
+15:30:24 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:30:35 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh:generateContent 
+"HTTP/1.1 200 OK"
+15:30:37 Γöé INFO    
+Γöé agent.gemini_seo 
+Γöé Generated SEO 
+title: Is It A YES 
+or NO? Γ£àΓ¥î 
+Hilarious Minecraft 
+Animatio...
+15:30:37 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:30:49 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh:generateContent 
+"HTTP/1.1 200 OK"
+15:30:51 Γöé INFO    
+Γöé agent.gemini_seo 
+Γöé Generated SEO 
+title: ≡ƒñú Stickman 
+Dismounting: EPIC 
+Falls & FUNNY Fails 
+C...
+15:30:51 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:31:03 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh:generateContent 
+"HTTP/1.1 200 OK"
+15:31:05 Γöé INFO    
+Γöé agent.gemini_seo 
+Γöé Generated SEO 
+title: Vir The Robot 
+Boy: EPIC Action 
+Scenes 
+Compilation!...
+15:31:05 Γöé INFO    
+Γöé agent Γöé ≡ƒÄ¿ 
+Generating AI 
+thumbnails with Nano 
+Banana...
+15:31:05 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:31:05 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh-image:generateCont
+ent "HTTP/1.1 429 
+Too Many Requests"
+15:31:05 Γöé WARNING 
+Γöé agent.thumbnail_m
+aker Γöé Thumbnail 
+generation failed: 
+429 
+RESOURCE_EXHAUSTED. 
+{'error': {'code': 
+429, 'message': 'You 
+exceeded your 
+current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. \n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_re
+quests, limit: 0, 
+model: gemini-2.5-fla
+sh-preview-image\n* 
+Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_in
+put_token_count, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\nPlease retry 
+in 46.161933859s.', 
+'status': 'RESOURCE_E
+XHAUSTED', 
+'details': 
+[{'@type': 'type.goog
+leapis.com/google.rpc
+.Help', 'links': 
+[{'description': 
+'Learn more about 
+Gemini API quotas', 
+'url': 'https://ai.go
+ogle.dev/gemini-api/d
+ocs/rate-limits'}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+QuotaFailure', 
+'violations': 
+[{'quotaMetric': 'gen
+erativelanguage.googl
+eapis.com/generate_co
+ntent_free_tier_reque
+sts', 'quotaId': 'Gen
+erateRequestsPerDayPe
+rProjectPerModel-Free
+Tier', 
+'quotaDimensions': 
+{'model': 'gemini-2.5
+-flash-preview-image'
+, 'location': 
+'global'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts', 'quotaId': 'Gene
+rateRequestsPerMinute
+PerProjectPerModel-Fr
+eeTier', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_input_
+token_count', 
+'quotaId': 'GenerateC
+ontentInputTokensPerM
+odelPerMinute-FreeTie
+r', 
+'quotaDimensions': 
+{'model': 'gemini-2.5
+-flash-preview-image'
+, 'location': 
+'global'}}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+RetryInfo', 
+'retryDelay': 
+'46s'}]}}
+15:31:06 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:31:06 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh-image:generateCont
+ent "HTTP/1.1 429 
+Too Many Requests"
+15:31:06 Γöé WARNING 
+Γöé agent.thumbnail_m
+aker Γöé Thumbnail 
+generation failed: 
+429 
+RESOURCE_EXHAUSTED. 
+{'error': {'code': 
+429, 'message': 'You 
+exceeded your 
+current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. \n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_re
+quests, limit: 0, 
+model: gemini-2.5-fla
+sh-preview-image\n* 
+Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_in
+put_token_count, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\nPlease retry 
+in 45.680275006s.', 
+'status': 'RESOURCE_E
+XHAUSTED', 
+'details': 
+[{'@type': 'type.goog
+leapis.com/google.rpc
+.Help', 'links': 
+[{'description': 
+'Learn more about 
+Gemini API quotas', 
+'url': 'https://ai.go
+ogle.dev/gemini-api/d
+ocs/rate-limits'}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+QuotaFailure', 
+'violations': 
+[{'quotaMetric': 'gen
+erativelanguage.googl
+eapis.com/generate_co
+ntent_free_tier_reque
+sts', 'quotaId': 'Gen
+erateRequestsPerDayPe
+rProjectPerModel-Free
+Tier', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts', 'quotaId': 'Gene
+rateRequestsPerMinute
+PerProjectPerModel-Fr
+eeTier', 
+'quotaDimensions': 
+{'model': 'gemini-2.5
+-flash-preview-image'
+, 'location': 
+'global'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_input_
+token_count', 
+'quotaId': 'GenerateC
+ontentInputTokensPerM
+odelPerMinute-FreeTie
+r', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+RetryInfo', 
+'retryDelay': 
+'45s'}]}}
+15:31:06 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:31:07 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh-image:generateCont
+ent "HTTP/1.1 429 
+Too Many Requests"
+15:31:07 Γöé WARNING 
+Γöé agent.thumbnail_m
+aker Γöé Thumbnail 
+generation failed: 
+429 
+RESOURCE_EXHAUSTED. 
+{'error': {'code': 
+429, 'message': 'You 
+exceeded your 
+current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. \n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_re
+quests, limit: 0, 
+model: gemini-2.5-fla
+sh-preview-image\n* 
+Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_in
+put_token_count, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\nPlease retry 
+in 45.168940585s.', 
+'status': 'RESOURCE_E
+XHAUSTED', 
+'details': 
+[{'@type': 'type.goog
+leapis.com/google.rpc
+.Help', 'links': 
+[{'description': 
+'Learn more about 
+Gemini API quotas', 
+'url': 'https://ai.go
+ogle.dev/gemini-api/d
+ocs/rate-limits'}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+QuotaFailure', 
+'violations': 
+[{'quotaMetric': 'gen
+erativelanguage.googl
+eapis.com/generate_co
+ntent_free_tier_reque
+sts', 'quotaId': 'Gen
+erateRequestsPerDayPe
+rProjectPerModel-Free
+Tier', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts', 'quotaId': 'Gene
+rateRequestsPerMinute
+PerProjectPerModel-Fr
+eeTier', 
+'quotaDimensions': 
+{'model': 'gemini-2.5
+-flash-preview-image'
+, 'location': 
+'global'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_input_
+token_count', 
+'quotaId': 'GenerateC
+ontentInputTokensPerM
+odelPerMinute-FreeTie
+r', 
+'quotaDimensions': 
+{'model': 'gemini-2.5
+-flash-preview-image'
+, 'location': 
+'global'}}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+RetryInfo', 
+'retryDelay': 
+'45s'}]}}
+15:31:07 Γöé INFO    
+Γöé agent Γöé ≡ƒÄ¼ 
+Uploading to YouTube 
+channel...
+15:31:07 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:31:11 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé Γ£à 
+Uploaded to YouTube: 
+≡ƒñ» CRAZY Prank 
+Battle: Home vs 
+School! ≡ƒÿé 
+(Animation Meme 
+#Shorts ft. 
+Roblox/Minecraft) 
+ΓåÆ https://www.youtu
+be.com/watch?v=TLzgwQ
+pdyK4
+15:31:11 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:31:15 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé Γ£à 
+Uploaded to YouTube: 
+Is It A YES or NO? 
+Γ£àΓ¥î Hilarious 
+Minecraft Animation 
+Meme! ≡ƒÿé #Shorts 
+ΓåÆ https://www.youtu
+be.com/watch?v=-fXEVP
+di8Ag
+15:31:15 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:31:19 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 2%
+15:31:20 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 5%
+15:31:21 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 7%
+15:31:23 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 10%
+15:31:24 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 12%
+15:31:25 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 15%
+15:31:27 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 17%
+15:31:28 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 20%
+15:31:29 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 22%
+15:31:31 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 25%
+15:31:32 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 27%
+15:31:34 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 30%
+15:31:35 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 32%
+15:31:36 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 35%
+15:31:37 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 37%
+15:31:39 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 40%
+15:31:40 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 42%
+15:31:42 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 45%
+15:31:44 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 47%
+15:31:45 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 50%
+15:31:47 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 52%
+15:31:48 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 55%
+15:31:50 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 57%
+15:31:52 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 60%
+15:31:53 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 62%
+15:31:54 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 65%
+15:31:56 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 67%
+15:31:58 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 70%
+15:31:59 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 72%
+15:32:00 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 75%
+15:32:02 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 77%
+15:32:03 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 80%
+15:32:05 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 82%
+15:32:06 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 85%
+15:32:07 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 87%
+15:32:09 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 90%
+15:32:10 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 92%
+15:32:12 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 95%
+15:32:13 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 97%
+15:32:16 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé Γ£à 
+Uploaded to YouTube: 
+≡ƒñú Stickman 
+Dismounting: EPIC 
+Falls & FUNNY Fails 
+Compilation! #700 
+(Try Not To Laugh) 
+ΓåÆ https://www.youtu
+be.com/watch?v=u76U49
+1Dstg
+15:32:16 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé Uploaded 
+3/4 videos to YouTube
+15:32:16 Γöé INFO    
+Γöé agent Γöé Γÿü∩╕Å 
+Uploading to Google 
+Drive...
+15:32:16 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:32:20 Γöé INFO    
+Γöé 
+agent.drive_uploader 
+Γöé Γ£à Uploaded to 
+Drive: Home or 
+School Prank 
+(Animation Meme) 
+#shorts #memes 
+#animation #cartoon 
+#roblox #minecraft 
+#funny ΓåÆ https://dr
+ive.google.com/file/d
+/17I7w6yn0ELnSP8KJ_M4
+9dipmvo26dApX/view?us
+p=drivesdk
+15:32:20 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:32:24 Γöé INFO    
+Γöé 
+agent.drive_uploader 
+Γöé Γ£à Uploaded to 
+Drive: Checklist Yes 
+or No? (Animation 
+Meme) #shorts #memes 
+#funny #animation 
+#minecraft 
+#animationmeme ΓåÆ ht
+tps://drive.google.co
+m/file/d/15fzNWFlXtzL
+vXno1uhU5sfGvX4bc8d7L
+/view?usp=drivesdk
+15:32:24 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:33:14 Γöé INFO    
+Γöé 
+agent.drive_uploader 
+Γöé Γ£à Uploaded to 
+Drive: Best Falls | 
+Stickman Dismounting 
+compilation of funny 
+moments RADIAL STICK 
+#700 ΓåÆ https://driv
+e.google.com/file/d/1
+kOEWje0r3AYp_TVcI1lBY
+Yj6bdtZnjgC/view?usp=
+drivesdk
+15:33:14 Γöé INFO    
+Γöé 
+agent.drive_uploader 
+Γöé Uploaded 3/4 
+videos to Google 
+Drive
+15:33:14 Γöé INFO    
+Γöé agent Γöé ≡ƒôñ 
+Sending to 
+Telegram...
+15:33:14 Γöé INFO    
+Γöé agent.telegram_po
+ster Γöé Sending 4 
+videos to Telegram 
+chat: 997772037
+15:33:15 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/api.telegram.org/bot
+8566178650:AAE932C7Hv
+Bwu98YLncxnLTWlTyYUKM
+cLLg/sendMessage 
+"HTTP/1.1 200 OK"
+15:33:16 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/api.telegram.org/bot
+8566178650:AAE932C7Hv
+Bwu98YLncxnLTWlTyYUKM
+cLLg/sendPhoto 
+"HTTP/1.1 200 OK"
+15:33:16 Γöé INFO    
+Γöé agent.telegram_po
+ster Γöé Γ£à Posted: 
+Home or School Prank 
+(Animation Meme) 
+#shorts #memes 
+#animation #cartoon 
+#roblox #minecraft 
+#funny
+15:33:19 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/api.telegram.org/bot
+8566178650:AAE932C7Hv
+Bwu98YLncxnLTWlTyYUKM
+cLLg/sendPhoto 
+"HTTP/1.1 200 OK"
+15:33:19 Γöé INFO    
+Γöé agent.telegram_po
+ster Γöé Γ£à Posted: 
+Checklist Yes or No? 
+(Animation Meme) 
+#shorts #memes 
+#funny #animation 
+#minecraft 
+#animationmeme
+15:33:21 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/api.telegram.org/bot
+8566178650:AAE932C7Hv
+Bwu98YLncxnLTWlTyYUKM
+cLLg/sendPhoto 
+"HTTP/1.1 200 OK"
+15:33:21 Γöé INFO    
+Γöé agent.telegram_po
+ster Γöé Γ£à Posted: 
+Best Falls | 
+Stickman Dismounting 
+compilation of funny 
+moments RADIAL STICK 
+#700
+15:33:23 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/api.telegram.org/bot
+8566178650:AAE932C7Hv
+Bwu98YLncxnLTWlTyYUKM
+cLLg/sendPhoto 
+"HTTP/1.1 200 OK"
+15:33:23 Γöé INFO    
+Γöé agent.telegram_po
+ster Γöé Γ£à Posted: 
+Vir The Robot Boy | 
+Best Action Scenes 
+Compilation - 382 | 
+Wow Kidz Binge
+15:33:23 Γöé INFO    
+Γöé agent.telegram_po
+ster Γöé Finished 
+sending to Telegram.
+15:33:23 Γöé INFO    
+Γöé agent.dedup Γöé 
+No dedup file found 
+at E:\Antigravity\pos
+ted_videos.json, 
+starting fresh.
+15:33:23 Γöé INFO    
+Γöé agent.dedup Γöé 
+Saved 4 posted video 
+IDs to E:\Antigravity
+\posted_videos.json
+15:33:23 Γöé INFO    
+Γöé 
+agent.drive_uploader 
+Γöé ≡ƒùæ∩╕Å Cleaned 
+up: Best Falls  
+Stickman Dismounting 
+compilation of funny 
+moments RADIAL STICK 
+#700 
+[q2MVNAH3s6w].mp4
+15:33:23 Γöé INFO    
+Γöé 
+agent.drive_uploader 
+Γöé ≡ƒùæ∩╕Å Cleaned 
+up: Checklist Yes or 
+No (Animation Meme) 
+#shorts #memes 
+#funny #animation 
+#minecraft 
+[sw_0Y1z1dxo].mp4
+15:33:23 Γöé INFO    
+Γöé 
+agent.drive_uploader 
+Γöé ≡ƒùæ∩╕Å Cleaned 
+up: Home or School 
+Prank (Animation 
+Meme) #shorts #memes 
+#animation #cartoon 
+#roblox 
+[onDkaBwHL3U].mp4
+15:33:23 Γöé INFO    
+Γöé agent Γöé =======
+=====================
+=====================
+===========
+15:33:23 Γöé INFO    
+Γöé agent Γöé Γ£à 
+Run complete! 
+Processed 4 videos.
+15:33:23 Γöé INFO    
+Γöé agent Γöé =======
+=====================
+=====================
+===========
+Exception ignored 
+in: <function _Proact
+orBasePipeTransport._
+_del__ at 
+0x000002200A6263A0>
+Traceback (most 
+recent call last):
+  File "C:\Users\HP\A
+ppData\Local\Programs
+\Python\Python39\lib\
+asyncio\proactor_even
+ts.py", line 116, in 
+__del__
+    self.close()
+  File "C:\Users\HP\A
+ppData\Local\Programs
+\Python\Python39\lib\
+asyncio\proactor_even
+ts.py", line 108, in 
+close
+    self._loop.call_s
+oon(self._call_connec
+tion_lost, None)
+  File "C:\Users\HP\A
+ppData\Local\Programs
+\Python\Python39\lib\
+asyncio\base_events.p
+y", line 746, in 
+call_soon
+    
+self._check_closed()
+  File "C:\Users\HP\A
+ppData\Local\Programs
+\Python\Python39\lib\
+asyncio\base_events.p
+y", line 510, in 
+_check_closed
+    raise 
+RuntimeError('Event 
+loop is closed')
+RuntimeError: Event 
+loop is closed

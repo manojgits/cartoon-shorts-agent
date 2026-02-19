@@ -1,0 +1,1446 @@
+﻿python : 15:19:16 
+Γöé INFO    Γöé 
+agent Γöé ===========
+=====================
+=====================
+=======
+At line:1 char:244
++ ...  $env:PYTHONIOE
+NCODING='utf-8'; 
+python -W ignore 
+main.py 2>&1 | Out-F 
+...
++                    
+                 ~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (15:19:1   
+ 6 Γöé IN...=====    
+==========:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+15:19:16 Γöé INFO    
+Γöé agent Γöé ≡ƒñû 
+Cartoon Agent ΓÇö 
+Starting run
+15:19:16 Γöé INFO    
+Γöé agent Γöé =======
+=====================
+=====================
+===========
+15:19:16 Γöé INFO    
+Γöé agent.dedup Γöé 
+No dedup file found 
+at E:\Antigravity\pos
+ted_videos.json, 
+starting fresh.
+15:19:16 Γöé INFO    
+Γöé agent Γöé ΓÜí 
+Fetching trending 
+cartoon Shorts 
+(Γëñ60s)...
+15:19:16 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'animation shorts 
+viral'
+15:19:16 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:19:17 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 'funny 
+cartoon shorts'
+15:19:17 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:19:17 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'animated shorts 
+funny'
+15:19:17 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:19:18 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Found 30 
+unique video IDs 
+across 3 queries
+15:19:18 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:19:19 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Fetched 
+details for 30 
+videos from 30 
+candidates
+15:19:19 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Filtered to 
+25 Shorts (Γëñ60s) 
+from 30 total
+15:19:19 Γöé INFO    
+Γöé agent.ranker Γöé 
+Ranked 25 videos. 
+Top score: 0.5294
+15:19:19 Γöé INFO    
+Γöé agent.ranker Γöé 
+Selected 2 new 
+videos to post 
+(skipped 0 
+already-posted)
+15:19:19 Γöé INFO    
+Γöé agent Γöé ≡ƒôè 
+Selected 2 Shorts
+15:19:19 Γöé INFO    
+Γöé agent Γöé ≡ƒÄÑ 
+Fetching trending 
+full-length cartoons 
+(>60s)...
+15:19:19 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'trending cartoon 
+full episode'
+15:19:19 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:19:20 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'cartoon funny 
+moments'
+15:19:20 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:19:22 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 'funny 
+cartoon compilation'
+15:19:22 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:19:22 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Found 30 
+unique video IDs 
+across 3 queries
+15:19:22 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:19:25 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Fetched 
+details for 30 
+videos from 30 
+candidates
+15:19:25 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Filtered to 
+10 full-length 
+(>60s) from 30 total
+15:19:25 Γöé INFO    
+Γöé agent.ranker Γöé 
+Ranked 10 videos. 
+Top score: 0.5278
+15:19:25 Γöé INFO    
+Γöé agent.ranker Γöé 
+Selected 2 new 
+videos to post 
+(skipped 0 
+already-posted)
+15:19:25 Γöé INFO    
+Γöé agent Γöé ≡ƒôè 
+Selected 2 
+full-length videos
+15:19:25 Γöé INFO    
+Γöé agent Γöé 
+≡ƒÅå Top 4 videos to 
+post:
+15:19:25 Γöé INFO    
+Γöé agent Γöé   1. 
+[Short] [0.529] He 
+Just Had to Touch 
+the Chainsaw 
+#animation #funn 
+(≡ƒæü 879,702 | 
+Γ¥ñ∩╕Å 43,230)
+15:19:25 Γöé INFO    
+Γöé agent Γöé   2. 
+[Short] [0.493] Dost 
+ki harkato ka raaj 
+≡ƒÿé #funny #meme 
+#reel #stor (≡ƒæü 
+961,287 | Γ¥ñ∩╕Å 
+17,076)
+15:19:25 Γöé INFO    
+Γöé agent Γöé   3. 
+[Full] [0.528] 
+Sakura school 
+simulator ≡ƒÿé≡ƒÿ│#sa
+kuraschoolsimulator 
+# (≡ƒæü 34,541 | 
+Γ¥ñ∩╕Å 581)
+15:19:25 Γöé INFO    
+Γöé agent Γöé   4. 
+[Full] [0.447] Best 
+Falls | Stickman 
+Dismounting 
+compilation of f 
+(≡ƒæü 34,809 | 
+Γ¥ñ∩╕Å 188)
+15:19:25 Γöé INFO    
+Γöé agent Γöé Γ¼ç∩╕Å 
+Downloading videos...
+15:19:29 Γöé INFO    
+Γöé agent.downloader 
+Γöé Γ£à Downloaded: 
+He Just Had to Touch 
+the Chainsaw 
+#animation #funny 
+(3.4 MB)
+15:19:32 Γöé INFO    
+Γöé agent.downloader 
+Γöé Γ£à Downloaded: 
+Dost ki harkato ka 
+raaj ≡ƒÿé #funny 
+#meme #reel #story 
+(3.6 MB)
+15:20:14 Γöé INFO    
+Γöé agent.downloader 
+Γöé Γ£à Downloaded: 
+Sakura school 
+simulator ≡ƒÿé≡ƒÿ│#sa
+kuraschoolsimulator 
+#viral #funny 
+#cartoon #trending  
+(47.6 MB)
+15:21:21 Γöé INFO    
+Γöé agent.downloader 
+Γöé Γ£à Downloaded: 
+Best Falls | 
+Stickman Dismounting 
+compilation of funny 
+moments RADIAL STICK 
+#700 (40.0 MB)
+15:21:21 Γöé INFO    
+Γöé agent.downloader 
+Γöé Downloaded 4/4 
+videos successfully
+15:21:21 Γöé INFO    
+Γöé agent Γöé Γ£¿ 
+Generating SEO with 
+Gemini AI...
+15:21:21 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:21:32 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh:generateContent 
+"HTTP/1.1 200 OK"
+15:21:34 Γöé INFO    
+Γöé agent.gemini_seo 
+Γöé Generated SEO 
+title: He Touched 
+the Chainsaw! ≡ƒñ» 
+You Won't BELIEVE 
+What ...
+15:21:34 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:21:48 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh:generateContent 
+"HTTP/1.1 200 OK"
+15:21:50 Γöé INFO    
+Γöé agent.gemini_seo 
+Γöé Generated SEO 
+title: Dost ki 
+harkato ka raaj ≡ƒñú 
+Hasi Nahi Rukegi! 
+Funny ...
+15:21:50 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:22:01 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh:generateContent 
+"HTTP/1.1 200 OK"
+15:22:03 Γöé INFO    
+Γöé agent.gemini_seo 
+Γöé Generated SEO 
+title: Sakura School 
+Simulator: HILARIOUS 
+Moments! ≡ƒÿé Funn...
+15:22:03 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:22:15 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh:generateContent 
+"HTTP/1.1 200 OK"
+15:22:17 Γöé INFO    
+Γöé agent.gemini_seo 
+Γöé Generated SEO 
+title: Stickman 
+Dismounting: 
+ULTIMATE Funny Falls 
+Compila...
+15:22:17 Γöé INFO    
+Γöé agent Γöé ≡ƒÄ¿ 
+Generating AI 
+thumbnails with Nano 
+Banana...
+15:22:17 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:22:17 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh-image:generateCont
+ent "HTTP/1.1 429 
+Too Many Requests"
+15:22:17 Γöé WARNING 
+Γöé agent.thumbnail_m
+aker Γöé Thumbnail 
+generation failed: 
+429 
+RESOURCE_EXHAUSTED. 
+{'error': {'code': 
+429, 'message': 'You 
+exceeded your 
+current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. \n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_in
+put_token_count, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_re
+quests, limit: 0, 
+model: gemini-2.5-fla
+sh-preview-image\n* 
+Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\nPlease retry 
+in 34.19170322s.', 
+'status': 'RESOURCE_E
+XHAUSTED', 
+'details': 
+[{'@type': 'type.goog
+leapis.com/google.rpc
+.Help', 'links': 
+[{'description': 
+'Learn more about 
+Gemini API quotas', 
+'url': 'https://ai.go
+ogle.dev/gemini-api/d
+ocs/rate-limits'}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+QuotaFailure', 
+'violations': 
+[{'quotaMetric': 'gen
+erativelanguage.googl
+eapis.com/generate_co
+ntent_free_tier_input
+_token_count', 
+'quotaId': 'GenerateC
+ontentInputTokensPerM
+odelPerMinute-FreeTie
+r', 
+'quotaDimensions': 
+{'model': 'gemini-2.5
+-flash-preview-image'
+, 'location': 
+'global'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts', 'quotaId': 'Gene
+rateRequestsPerMinute
+PerProjectPerModel-Fr
+eeTier', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts', 'quotaId': 'Gene
+rateRequestsPerDayPer
+ProjectPerModel-FreeT
+ier', 
+'quotaDimensions': 
+{'model': 'gemini-2.5
+-flash-preview-image'
+, 'location': 
+'global'}}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+RetryInfo', 
+'retryDelay': 
+'34s'}]}}
+15:22:18 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:22:18 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh-image:generateCont
+ent "HTTP/1.1 429 
+Too Many Requests"
+15:22:18 Γöé WARNING 
+Γöé agent.thumbnail_m
+aker Γöé Thumbnail 
+generation failed: 
+429 
+RESOURCE_EXHAUSTED. 
+{'error': {'code': 
+429, 'message': 'You 
+exceeded your 
+current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. \n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_re
+quests, limit: 0, 
+model: gemini-2.5-fla
+sh-preview-image\n* 
+Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_in
+put_token_count, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\nPlease retry 
+in 33.260730041s.', 
+'status': 'RESOURCE_E
+XHAUSTED', 
+'details': 
+[{'@type': 'type.goog
+leapis.com/google.rpc
+.Help', 'links': 
+[{'description': 
+'Learn more about 
+Gemini API quotas', 
+'url': 'https://ai.go
+ogle.dev/gemini-api/d
+ocs/rate-limits'}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+QuotaFailure', 
+'violations': 
+[{'quotaMetric': 'gen
+erativelanguage.googl
+eapis.com/generate_co
+ntent_free_tier_reque
+sts', 'quotaId': 'Gen
+erateRequestsPerDayPe
+rProjectPerModel-Free
+Tier', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts', 'quotaId': 'Gene
+rateRequestsPerMinute
+PerProjectPerModel-Fr
+eeTier', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_input_
+token_count', 
+'quotaId': 'GenerateC
+ontentInputTokensPerM
+odelPerMinute-FreeTie
+r', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+RetryInfo', 
+'retryDelay': 
+'33s'}]}}
+15:22:18 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:22:19 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh-image:generateCont
+ent "HTTP/1.1 429 
+Too Many Requests"
+15:22:19 Γöé WARNING 
+Γöé agent.thumbnail_m
+aker Γöé Thumbnail 
+generation failed: 
+429 
+RESOURCE_EXHAUSTED. 
+{'error': {'code': 
+429, 'message': 'You 
+exceeded your 
+current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. \n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_in
+put_token_count, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_re
+quests, limit: 0, 
+model: gemini-2.5-fla
+sh-preview-image\n* 
+Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\nPlease retry 
+in 32.770467127s.', 
+'status': 'RESOURCE_E
+XHAUSTED', 
+'details': 
+[{'@type': 'type.goog
+leapis.com/google.rpc
+.Help', 'links': 
+[{'description': 
+'Learn more about 
+Gemini API quotas', 
+'url': 'https://ai.go
+ogle.dev/gemini-api/d
+ocs/rate-limits'}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+QuotaFailure', 
+'violations': 
+[{'quotaMetric': 'gen
+erativelanguage.googl
+eapis.com/generate_co
+ntent_free_tier_input
+_token_count', 
+'quotaId': 'GenerateC
+ontentInputTokensPerM
+odelPerMinute-FreeTie
+r', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts', 'quotaId': 'Gene
+rateRequestsPerMinute
+PerProjectPerModel-Fr
+eeTier', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts', 'quotaId': 'Gene
+rateRequestsPerDayPer
+ProjectPerModel-FreeT
+ier', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+RetryInfo', 
+'retryDelay': 
+'32s'}]}}
+15:22:19 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:22:19 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh-image:generateCont
+ent "HTTP/1.1 429 
+Too Many Requests"
+15:22:19 Γöé WARNING 
+Γöé agent.thumbnail_m
+aker Γöé Thumbnail 
+generation failed: 
+429 
+RESOURCE_EXHAUSTED. 
+{'error': {'code': 
+429, 'message': 'You 
+exceeded your 
+current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. \n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_in
+put_token_count, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_re
+quests, limit: 0, 
+model: gemini-2.5-fla
+sh-preview-image\n* 
+Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\nPlease retry 
+in 32.272988595s.', 
+'status': 'RESOURCE_E
+XHAUSTED', 
+'details': 
+[{'@type': 'type.goog
+leapis.com/google.rpc
+.Help', 'links': 
+[{'description': 
+'Learn more about 
+Gemini API quotas', 
+'url': 'https://ai.go
+ogle.dev/gemini-api/d
+ocs/rate-limits'}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+QuotaFailure', 
+'violations': 
+[{'quotaMetric': 'gen
+erativelanguage.googl
+eapis.com/generate_co
+ntent_free_tier_input
+_token_count', 
+'quotaId': 'GenerateC
+ontentInputTokensPerM
+odelPerMinute-FreeTie
+r', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts', 'quotaId': 'Gene
+rateRequestsPerMinute
+PerProjectPerModel-Fr
+eeTier', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts', 'quotaId': 'Gene
+rateRequestsPerDayPer
+ProjectPerModel-FreeT
+ier', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+RetryInfo', 
+'retryDelay': 
+'32s'}]}}
+15:22:19 Γöé INFO    
+Γöé agent Γöé ≡ƒÄ¼ 
+Uploading to YouTube 
+channel...
+15:22:20 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:22:24 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 29%
+15:22:25 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 58%
+15:22:27 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 87%
+15:22:29 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé Γ£à 
+Uploaded to YouTube: 
+He Touched the 
+Chainsaw! ≡ƒñ» You 
+Won't BELIEVE What 
+Happens Next! ≡ƒÿé 
+#FunnyAnimation ΓåÆ h
+ttps://www.youtube.co
+m/watch?v=GpaMmhMVuaQ
+15:22:29 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:22:32 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 27%
+15:22:34 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 55%
+15:22:36 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 83%
+15:22:38 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé Γ£à 
+Uploaded to YouTube: 
+Dost ki harkato ka 
+raaj ≡ƒñú Hasi Nahi 
+Rukegi! Funny 
+Cartoon Meme Short! 
+ΓåÆ https://www.youtu
+be.com/watch?v=Bwj_9M
+7Msq4
+15:22:38 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:22:41 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 2%
+15:22:43 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 4%
+15:22:44 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 6%
+15:22:47 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 8%
+15:22:49 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 10%
+15:22:50 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 12%
+15:22:52 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 14%
+15:22:53 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 16%
+15:22:55 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 18%
+15:22:56 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 21%
+15:22:58 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 23%
+15:23:00 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 25%
+15:23:01 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 27%
+15:23:03 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 29%
+15:23:04 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 31%
+15:23:06 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 33%
+15:23:08 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 35%
+15:23:09 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 37%
+15:23:11 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 39%
+15:23:12 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 42%
+15:23:15 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 44%
+15:23:17 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 46%
+15:23:19 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 48%
+15:23:20 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 50%
+15:23:22 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 52%
+15:23:24 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 54%
+15:23:26 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 56%
+15:23:27 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 58%
+15:23:29 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 60%
+15:23:30 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 63%
+15:23:32 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 65%
+15:23:34 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 67%
+15:23:36 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 69%
+15:23:37 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 71%
+15:23:39 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 73%
+15:23:40 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 75%
+15:23:42 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 77%
+15:23:43 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 79%
+15:23:45 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 81%
+15:23:46 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 84%
+15:23:48 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 86%
+15:23:49 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 88%
+15:23:51 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 90%
+15:23:52 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 92%
+15:23:54 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 94%
+15:23:56 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 96%
+15:23:58 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 98%
+15:24:00 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé Γ£à 
+Uploaded to YouTube: 
+Sakura School 
+Simulator: HILARIOUS 
+Moments! ≡ƒÿé Funny 
+Cartoon Fails & 
+Viral Memes! ΓåÆ http
+s://www.youtube.com/w
+atch?v=mkdx958XML0
+15:24:00 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:24:06 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 2%
+15:24:08 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 5%
+15:24:10 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 7%
+15:24:12 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 10%
+15:24:14 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 12%
+15:24:16 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 15%
+15:24:18 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 17%
+15:24:19 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 20%
+15:24:21 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 22%
+15:24:22 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 25%
+15:24:23 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 27%
+15:24:25 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 30%
+15:24:26 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 32%
+15:24:28 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 35%
+15:24:30 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 37%
+15:24:31 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 40%
+15:24:33 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 42%
+15:24:34 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 45%
+15:24:35 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 47%
+15:24:37 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 50%
+15:24:38 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 52%
+15:24:40 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 55%
+15:24:42 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 57%
+15:24:43 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 60%
+15:24:45 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 62%
+15:24:46 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 65%
+15:24:48 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 67%
+15:24:50 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 70%
+15:24:51 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 72%
+15:24:52 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 75%
+15:24:54 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 77%
+15:24:55 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 80%
+15:24:57 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 82%
+15:24:58 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 85%
+15:25:00 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 87%
+15:25:02 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 90%
+15:25:03 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 92%
+15:25:05 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 95%
+15:25:06 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé   Γåæ 
+Upload progress: 97%
+15:25:08 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé Γ£à 
+Uploaded to YouTube: 
+Stickman 
+Dismounting: 
+ULTIMATE Funny Falls 
+Compilation! ≡ƒÿé 
+Epic Ragdoll Physics 
+Fails! ≡ƒÆÑ ΓåÆ https
+://www.youtube.com/wa
+tch?v=fsxoi87iZIc
+15:25:08 Γöé INFO    
+Γöé agent.youtube_upl
+oader Γöé Uploaded 
+4/4 videos to YouTube
+15:25:08 Γöé INFO    
+Γöé agent Γöé Γÿü∩╕Å 
+Uploading to Google 
+Drive...
+15:25:08 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:25:16 Γöé INFO    
+Γöé 
+agent.drive_uploader 
+Γöé Γ£à Uploaded to 
+Drive: He Just Had 
+to Touch the 
+Chainsaw #animation 
+#funny ΓåÆ https://dr
+ive.google.com/file/d
+/1ehJbBeWI6noC-fvHY2g
+7gSAL-60W5p_Q/view?us
+p=drivesdk
+15:25:16 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:25:28 Γöé INFO    
+Γöé 
+agent.drive_uploader 
+Γöé Γ£à Uploaded to 
+Drive: Dost ki 
+harkato ka raaj ≡ƒÿé 
+#funny #meme #reel 
+#story ΓåÆ https://dr
+ive.google.com/file/d
+/1F7Z0Jrkuj1sNujRczHC
+IRZ4g96d2rILO/view?us
+p=drivesdk
+15:25:28 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:26:38 Γöé INFO    
+Γöé 
+agent.drive_uploader 
+Γöé Γ£à Uploaded to 
+Drive: Sakura school 
+simulator ≡ƒÿé≡ƒÿ│#sa
+kuraschoolsimulator 
+#viral #funny 
+#cartoon #trending  
+ΓåÆ https://drive.goo
+gle.com/file/d/1utA32
+-TNdLpsUGJ7VcM-UA2T3z
+h51ULT/view?usp=drive
+sdk
+15:26:38 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:27:35 Γöé INFO    
+Γöé 
+agent.drive_uploader 
+Γöé Γ£à Uploaded to 
+Drive: Best Falls | 
+Stickman Dismounting 
+compilation of funny 
+moments RADIAL STICK 
+#700 ΓåÆ https://driv
+e.google.com/file/d/1
+Osxsf445fM4Zy4X8PfwhR
+isvAt5msZ9v/view?usp=
+drivesdk
+15:27:35 Γöé INFO    
+Γöé 
+agent.drive_uploader 
+Γöé Uploaded 4/4 
+videos to Google 
+Drive
+15:27:35 Γöé INFO    
+Γöé agent Γöé ≡ƒôñ 
+Sending to 
+Telegram...
+15:27:35 Γöé INFO    
+Γöé agent.telegram_po
+ster Γöé Sending 4 
+videos to Telegram 
+chat: 997772037
+Traceback (most 
+recent call last):
+  File "E:\Antigravit
+y\main.py", line 
+170, in <module>
+    run(dry_run=args.
+dry_run)
+  File "E:\Antigravit
+y\main.py", line 
+143, in run
+    post_to_telegram(
+  File "E:\Antigravit
+y\agent\telegram_post
+er.py", line 147, in 
+post_to_telegram
+    loop.run_until_co
+mplete(_post_all(bot_
+token, chat_id, 
+videos))
+  File "C:\Users\HP\A
+ppData\Local\Programs
+\Python\Python39\lib\
+asyncio\base_events.p
+y", line 642, in 
+run_until_complete
+    return 
+future.result()
+  File "E:\Antigravit
+y\agent\telegram_post
+er.py", line 105, in 
+_post_all
+    bot = 
+Bot(token=bot_token)
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\telegram\_bot.py
+", line 259, in 
+__init__
+    HTTPXRequest() 
+if 
+get_updates_request 
+is None else 
+get_updates_request,
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\telegram\request
+\_httpxrequest.py", 
+line 177, in __init__
+    self._client = 
+self._build_client()
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\telegram\request
+\_httpxrequest.py", 
+line 212, in 
+_build_client
+    return httpx.Asyn
+cClient(**self._clien
+t_kwargs)  # type: 
+ignore[arg-type]
+TypeError: 
+__init__() got an 
+unexpected keyword 
+argument 'proxies'

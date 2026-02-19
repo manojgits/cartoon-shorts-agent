@@ -1,0 +1,132 @@
+﻿python : Thumbnail 
+generation failed: 
+429 
+RESOURCE_EXHAUSTED. 
+{'error': {'code': 
+429, 'message': 'You 
+exceeded your 
+current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. \n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_in
+put_token_count, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_re
+quests, limit: 0, 
+model: gemini-2.5-fla
+sh-preview-image\n* 
+Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: gemi
+ni-2.5-flash-preview-
+image\nPlease retry 
+in 38.890836885s.', 
+'status': 'RESOURCE_E
+XHAUSTED', 
+'details': 
+[{'@type': 'type.goog
+leapis.com/google.rpc
+.Help', 'links': 
+[{'description': 
+'Learn more about 
+Gemini API quotas', 
+'url': 'https://ai.go
+ogle.dev/gemini-api/d
+ocs/rate-limits'}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+QuotaFailure', 
+'violations': 
+[{'quotaMetric': 'gen
+erativelanguage.googl
+eapis.com/generate_co
+ntent_free_tier_input
+_token_count', 
+'quotaId': 'GenerateC
+ontentInputTokensPerM
+odelPerMinute-FreeTie
+r', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts', 'quotaId': 'Gene
+rateRequestsPerMinute
+PerProjectPerModel-Fr
+eeTier', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}, 
+{'quotaMetric': 'gene
+rativelanguage.google
+apis.com/generate_con
+tent_free_tier_reques
+ts', 'quotaId': 'Gene
+rateRequestsPerDayPer
+ProjectPerModel-FreeT
+ier', 
+'quotaDimensions': 
+{'location': 
+'global', 'model': 'g
+emini-2.5-flash-previ
+ew-image'}}]}, 
+{'@type': 'type.googl
+eapis.com/google.rpc.
+RetryInfo', 
+'retryDelay': 
+'38s'}]}}
+At line:1 char:79
++ ... 
+s\Activate.ps1"; $env
+:PYTHONIOENCODING='ut
+f-8'; python -W 
+ignore -c "
++                    
+                     
+            
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Thumbna   
+ il gener...lay':    
+ '38s'}]}}:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+=== Testing SEO ===
+Title: ≡ƒÿé≡ƒò║ VIRAL Cat Dance Meme! Funniest Animation Shorts EVER! ≡ƒÿ╣ Y
+Tags count: 20
+SEO: OK
+
+=== Testing Thumbnail ===
+Thumb: FAILED

@@ -1,0 +1,694 @@
+﻿python : 15:16:39 
+Γöé INFO    Γöé 
+agent Γöé ===========
+=====================
+=====================
+=======
+At line:1 char:244
++ ...  $env:PYTHONIOE
+NCODING='utf-8'; 
+python -W ignore 
+main.py 2>&1 | Out-F 
+...
++                    
+                 ~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (15:16:3   
+ 9 Γöé IN...=====    
+==========:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+15:16:39 Γöé INFO    
+Γöé agent Γöé ≡ƒñû 
+Cartoon Agent ΓÇö 
+Starting run
+15:16:39 Γöé INFO    
+Γöé agent Γöé =======
+=====================
+=====================
+===========
+15:16:39 Γöé INFO    
+Γöé agent.dedup Γöé 
+No dedup file found 
+at E:\Antigravity\pos
+ted_videos.json, 
+starting fresh.
+15:16:39 Γöé INFO    
+Γöé agent Γöé ΓÜí 
+Fetching trending 
+cartoon Shorts 
+(Γëñ60s)...
+15:16:39 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 'funny 
+cartoon shorts'
+15:16:39 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:16:40 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'animation shorts 
+viral'
+15:16:40 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:16:40 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'cartoon meme shorts'
+15:16:40 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:16:41 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Found 29 
+unique video IDs 
+across 3 queries
+15:16:41 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:16:42 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Fetched 
+details for 29 
+videos from 29 
+candidates
+15:16:42 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Filtered to 
+26 Shorts (Γëñ60s) 
+from 29 total
+15:16:42 Γöé INFO    
+Γöé agent.ranker Γöé 
+Ranked 26 videos. 
+Top score: 0.4473
+15:16:42 Γöé INFO    
+Γöé agent.ranker Γöé 
+Selected 2 new 
+videos to post 
+(skipped 0 
+already-posted)
+15:16:42 Γöé INFO    
+Γöé agent Γöé ≡ƒôè 
+Selected 2 Shorts
+15:16:42 Γöé INFO    
+Γöé agent Γöé ≡ƒÄÑ 
+Fetching trending 
+full-length cartoons 
+(>60s)...
+15:16:42 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'cartoon edits viral'
+15:16:42 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:16:42 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 'funny 
+cartoon compilation'
+15:16:42 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:16:43 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Searching 
+YouTube for: 
+'trending cartoon 
+full episode'
+15:16:43 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:16:44 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Found 45 
+unique video IDs 
+across 3 queries
+15:16:44 Γöé INFO    
+Γöé googleapiclient.d
+iscovery_cache Γöé 
+file_cache is only 
+supported with 
+oauth2client<4.0.0
+15:16:45 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Fetched 
+details for 45 
+videos from 45 
+candidates
+15:16:45 Γöé INFO    
+Γöé agent.youtube_fet
+cher Γöé Filtered to 
+20 full-length 
+(>60s) from 45 total
+15:16:45 Γöé INFO    
+Γöé agent.ranker Γöé 
+Ranked 20 videos. 
+Top score: 0.5314
+15:16:45 Γöé INFO    
+Γöé agent.ranker Γöé 
+Selected 2 new 
+videos to post 
+(skipped 0 
+already-posted)
+15:16:45 Γöé INFO    
+Γöé agent Γöé ≡ƒôè 
+Selected 2 
+full-length videos
+15:16:45 Γöé INFO    
+Γöé agent Γöé 
+≡ƒÅå Top 4 videos to 
+post:
+15:16:45 Γöé INFO    
+Γöé agent Γöé   1. 
+[Short] [0.447] Home 
+or School Prank 
+(Animation Meme) 
+#shorts #mem (≡ƒæü 
+1,549,210 | Γ¥ñ∩╕Å 
+8,849)
+15:16:45 Γöé INFO    
+Γöé agent Γöé   2. 
+[Short] [0.339] 
+Checklist Yes or No? 
+(Animation Meme) 
+#shorts #mem (≡ƒæü 
+567,971 | Γ¥ñ∩╕Å 
+3,547)
+15:16:45 Γöé INFO    
+Γöé agent Γöé   3. 
+[Full] [0.531] 
+Sakura school 
+simulator ≡ƒÿé≡ƒÿ│#sa
+kuraschoolsimulator 
+# (≡ƒæü 34,541 | 
+Γ¥ñ∩╕Å 581)
+15:16:45 Γöé INFO    
+Γöé agent Γöé   4. 
+[Full] [0.478] Huge 
+Car Wash Party! ≡ƒÜ┐ 
+Soapy Bubbles + 
+Funny Cars  (≡ƒæü 7 
+| Γ¥ñ∩╕Å 6)
+15:16:45 Γöé INFO    
+Γöé agent Γöé Γ¼ç∩╕Å 
+Downloading videos...
+15:16:46 Γöé INFO    
+Γöé agent.downloader 
+Γöé Γ£à Downloaded: 
+Home or School Prank 
+(Animation Meme) 
+#shorts #memes 
+#animation #cartoon 
+#roblox #minecraft 
+#funny (0.8 MB)
+15:16:48 Γöé INFO    
+Γöé agent.downloader 
+Γöé Γ£à Downloaded: 
+Checklist Yes or No? 
+(Animation Meme) 
+#shorts #memes 
+#funny #animation 
+#minecraft 
+#animationmeme (0.9 
+MB)
+15:17:19 Γöé INFO    
+Γöé agent.downloader 
+Γöé Γ£à Downloaded: 
+Sakura school 
+simulator ≡ƒÿé≡ƒÿ│#sa
+kuraschoolsimulator 
+#viral #funny 
+#cartoon #trending  
+(47.6 MB)
+15:17:20 Γöé WARNING 
+Γöé 
+pytubefix.__main__ 
+Γöé ANDROID_VR 
+client returned: 
+This video is not 
+available
+15:17:20 Γöé WARNING 
+Γöé 
+pytubefix.__main__ 
+Γöé Switching to 
+client: TV
+15:17:29 Γöé WARNING 
+Γöé agent.downloader 
+Γöé ΓÜá∩╕Å Could not 
+download 'Huge Car 
+Wash Party! ≡ƒÜ┐ 
+Soapy Bubbles + 
+Funny Cars Cartoon 
+Compilation#viral 
+#trending ': 
+RvQDmedpb4A This 
+request was detected 
+as a bot. DO NOT 
+OPEN AN ISSUE! See 
+more details at https
+://pytubefix.readthed
+ocs.io/en/latest/user
+/po_token.html
+15:17:29 Γöé INFO    
+Γöé agent.downloader 
+Γöé Downloaded 3/4 
+videos successfully
+15:17:29 Γöé INFO    
+Γöé agent Γöé Γ£¿ 
+Generating SEO with 
+Gemini AI...
+15:17:29 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:17:41 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh:generateContent 
+"HTTP/1.1 200 OK"
+15:17:43 Γöé INFO    
+Γöé agent.gemini_seo 
+Γöé Generated SEO 
+title: HOME or 
+SCHOOL Prank? ≡ƒÿé 
+Wild Animation Meme! 
+#Shor...
+15:17:43 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:17:53 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh:generateContent 
+"HTTP/1.1 200 OK"
+15:17:55 Γöé INFO    
+Γöé agent.gemini_seo 
+Γöé Generated SEO 
+title: Can You Pass 
+This YES or NO 
+Checklist? ≡ƒÿé 
+Minecraft...
+15:17:55 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:18:06 Γöé INFO    
+Γöé httpx Γöé HTTP 
+Request: POST https:/
+/generativelanguage.g
+oogleapis.com/v1beta/
+models/gemini-2.5-fla
+sh:generateContent 
+"HTTP/1.1 200 OK"
+15:18:08 Γöé INFO    
+Γöé agent.gemini_seo 
+Γöé Generated SEO 
+title: Sakura School 
+Simulator: CRAZIEST 
+Moments! ≡ƒÿé 
+Schoo...
+15:18:09 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:18:12 Γöé WARNING 
+Γöé agent.gemini_seo 
+Γöé Gemini SEO 
+generation failed: 
+[WinError 10053] An 
+established 
+connection was 
+aborted by the 
+software in your 
+host machine
+15:18:12 Γöé INFO    
+Γöé agent Γöé ≡ƒÄ¿ 
+Generating AI 
+thumbnails with Nano 
+Banana...
+15:18:13 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:18:13 Γöé WARNING 
+Γöé agent.thumbnail_m
+aker Γöé Thumbnail 
+generation failed: 
+[Errno 11001] 
+getaddrinfo failed
+15:18:13 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:18:13 Γöé WARNING 
+Γöé agent.thumbnail_m
+aker Γöé Thumbnail 
+generation failed: 
+[Errno 11001] 
+getaddrinfo failed
+15:18:13 Γöé INFO    
+Γöé 
+google_genai.models 
+Γöé AFC is enabled 
+with max remote 
+calls: 10.
+15:18:13 Γöé WARNING 
+Γöé agent.thumbnail_m
+aker Γöé Thumbnail 
+generation failed: 
+[Errno 11001] 
+getaddrinfo failed
+15:18:13 Γöé INFO    
+Γöé agent Γöé ≡ƒÄ¼ 
+Uploading to YouTube 
+channel...
+Traceback (most 
+recent call last):
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\urllib3\connecti
+on.py", line 204, in 
+_new_conn
+    sock = connection
+.create_connection(
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\urllib3\util\con
+nection.py", line 
+60, in 
+create_connection
+    for res in socket
+.getaddrinfo(host, 
+port, family, 
+socket.SOCK_STREAM):
+  File "C:\Users\HP\A
+ppData\Local\Programs
+\Python\Python39\lib\
+socket.py", line 
+954, in getaddrinfo
+    for res in _socke
+t.getaddrinfo(host, 
+port, family, type, 
+proto, flags):
+socket.gaierror: 
+[Errno 11001] 
+getaddrinfo failed
+
+The above exception 
+was the direct cause 
+of the following 
+exception:
+
+Traceback (most 
+recent call last):
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\urllib3\connecti
+onpool.py", line 
+787, in urlopen
+    response = 
+self._make_request(
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\urllib3\connecti
+onpool.py", line 
+488, in _make_request
+    raise new_e
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\urllib3\connecti
+onpool.py", line 
+464, in _make_request
+    self._validate_co
+nn(conn)
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\urllib3\connecti
+onpool.py", line 
+1093, in 
+_validate_conn
+    conn.connect()
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\urllib3\connecti
+on.py", line 759, in 
+connect
+    self.sock = sock 
+= self._new_conn()
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\urllib3\connecti
+on.py", line 211, in 
+_new_conn
+    raise NameResolut
+ionError(self.host, 
+self, e) from e
+urllib3.exceptions.Na
+meResolutionError: HT
+TPSConnection(host='o
+auth2.googleapis.com'
+, port=443): Failed 
+to resolve 'oauth2.go
+ogleapis.com' 
+([Errno 11001] 
+getaddrinfo failed)
+
+The above exception 
+was the direct cause 
+of the following 
+exception:
+
+Traceback (most 
+recent call last):
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\requests\adapter
+s.py", line 644, in 
+send
+    resp = 
+conn.urlopen(
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\urllib3\connecti
+onpool.py", line 
+841, in urlopen
+    retries = 
+retries.increment(
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\urllib3\util\ret
+ry.py", line 535, in 
+increment
+    raise 
+MaxRetryError(_pool, 
+url, reason) from 
+reason  # type: 
+ignore[arg-type]
+urllib3.exceptions.Ma
+xRetryError: HTTPSCon
+nectionPool(host='oau
+th2.googleapis.com', 
+port=443): Max 
+retries exceeded 
+with url: /token 
+(Caused by NameResolu
+tionError("HTTPSConne
+ction(host='oauth2.go
+ogleapis.com', 
+port=443): Failed to 
+resolve 'oauth2.googl
+eapis.com' ([Errno 
+11001] getaddrinfo 
+failed)"))
+
+During handling of 
+the above exception, 
+another exception 
+occurred:
+
+Traceback (most 
+recent call last):
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\google\auth\tran
+sport\requests.py", 
+line 188, in __call__
+    response = 
+self.session.request(
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\requests\session
+s.py", line 589, in 
+request
+    resp = 
+self.send(prep, 
+**send_kwargs)
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\requests\session
+s.py", line 703, in 
+send
+    r = adapter.send(
+request, **kwargs)
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\requests\adapter
+s.py", line 677, in 
+send
+    raise 
+ConnectionError(e, 
+request=request)
+requests.exceptions.C
+onnectionError: HTTPS
+ConnectionPool(host='
+oauth2.googleapis.com
+', port=443): Max 
+retries exceeded 
+with url: /token 
+(Caused by NameResolu
+tionError("HTTPSConne
+ction(host='oauth2.go
+ogleapis.com', 
+port=443): Failed to 
+resolve 'oauth2.googl
+eapis.com' ([Errno 
+11001] getaddrinfo 
+failed)"))
+
+The above exception 
+was the direct cause 
+of the following 
+exception:
+
+Traceback (most 
+recent call last):
+  File "E:\Antigravit
+y\main.py", line 
+170, in <module>
+    run(dry_run=args.
+dry_run)
+  File "E:\Antigravit
+y\main.py", line 
+127, in run
+    all_videos = uplo
+ad_videos_to_youtube(
+  File "E:\Antigravit
+y\agent\youtube_uploa
+der.py", line 200, 
+in upload_videos_to_y
+outube
+    youtube_url = 
+upload_video(
+  File "E:\Antigravit
+y\agent\youtube_uploa
+der.py", line 80, in 
+upload_video
+    service = _get_yo
+utube_service(token_f
+ile)
+  File "E:\Antigravit
+y\agent\youtube_uploa
+der.py", line 43, in 
+_get_youtube_service
+    creds.refresh(Req
+uest())
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\google\oauth2\cr
+edentials.py", line 
+412, in refresh
+    ) = 
+reauth.refresh_grant(
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\google\oauth2\re
+auth.py", line 337, 
+in refresh_grant
+    ) = _client._toke
+n_endpoint_request_no
+_throw(
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\google\oauth2\_c
+lient.py", line 192, 
+in _token_endpoint_re
+quest_no_throw
+    response = 
+request(
+  File "E:\Antigravit
+y\.venv\lib\site-pack
+ages\google\auth\tran
+sport\requests.py", 
+line 195, in __call__
+    raise new_exc 
+from caught_exc
+google.auth.exception
+s.TransportError: HTT
+PSConnectionPool(host
+='oauth2.googleapis.c
+om', port=443): Max 
+retries exceeded 
+with url: /token 
+(Caused by NameResolu
+tionError("HTTPSConne
+ction(host='oauth2.go
+ogleapis.com', 
+port=443): Failed to 
+resolve 'oauth2.googl
+eapis.com' ([Errno 
+11001] getaddrinfo 
+failed)"))
