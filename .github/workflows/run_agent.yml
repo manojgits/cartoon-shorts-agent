@@ -27,8 +27,10 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: 🔑 Create Google Drive token file
-        if: secrets.TOKEN != ''
-        run: echo '${{ secrets.TOKEN }}' > token.json
+        run: |
+          if [ "${{ secrets.TOKEN }}" != "" ]; then
+            echo '${{ secrets.TOKEN }}' > token.json
+          fi
 
       - name: 🤖 Run Cartoon Agent
         env:
