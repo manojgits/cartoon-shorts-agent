@@ -44,7 +44,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add posted_videos.json
+          if [ -f posted_videos.json ]; then git add posted_videos.json; fi
           git diff --cached --quiet || git commit -m "🤖 Update posted videos tracker"
           git push
 
