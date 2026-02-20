@@ -49,18 +49,25 @@ def generate_seo(api_key: str, original_title: str, video_type: str = "Short") -
     """
     client = genai.Client(api_key=api_key)
 
-    prompt = f"""You are a YouTube SEO expert specializing in cartoon/animation content
-with a global audience across the US, UK, Europe, and India.
+    prompt = f"""You are a YouTube SEO hacker specializing in algorithmic manipulation for cartoon/animation content.
+You must trick the global algorithm into pushing this video to international US, UK, Europe, and India "For You" feeds.
 
 Given this original video title: "{original_title}"
-Video type: {video_type} ({"60 seconds or less, vertical format" if video_type == "Short" else "longer than 60 seconds"})
+Video type: {video_type}
 
 Generate the following in JSON format:
 
 {{
-    "title": "A catchy, SEO-optimized YouTube title (max 100 characters). Use 1-2 emojis. Include high-search-volume keywords. Make it irresistible to click for viewers in US, UK, and India.",
-    "description": "A compelling YouTube description (300-500 words) that MUST include:\\n- A highly controversial or extremely engaging hook/question in the very first sentence that forces people to comment (e.g., 'Do you agree with what happens at the end?! Let me know below! 👇')\\n- Engaging summary of the video content\\n- Keywords naturally woven in for US, UK, Europe, and India audiences\\n- A STRONG subscribe call to action: 'SUBSCRIBE for daily cartoon content! Hit the bell 🔔 for notifications!'\\n- 8-12 relevant hashtags at the end covering #cartoon #animation #funny #meme #trending #viral #shorts #comedy\\n- Fun, energetic, universal tone that appeals globally",
-    "tags": ["Generate 20-30 tags mixing: broad English terms (cartoon, animation, funny, meme), region-specific terms (cartoon hindi, funny cartoon India), highly specific clickbait terms, and specific keywords from the video title"]
+    "title": "A catchy, clickbait YouTube title in ENGLISH (max 100 characters). 1-2 emojis.",
+    "description": "A compelling ENGLISH description that MUST include:\\n- A highly controversial hook question in the very first sentence\\n- A STRONG subscribe call to action\\n- 8-12 relevant hashtags at the end",
+    "tags": ["Generate 30-40 tags mixing: broad English terms, region-specific terms (hindi/spanish), highly specific clickbait terms, and specific keywords from the title. INCLUDE common misspellings."],
+    "localizations": {{
+        "es": {{"title": "Translate the English title to Spanish", "description": "Translate the English description to Spanish"}},
+        "hi": {{"title": "Translate the English title to Hindi", "description": "Translate the English description to Hindi"}},
+        "ar": {{"title": "Translate the English title to Arabic", "description": "Translate the English description to Arabic"}},
+        "ru": {{"title": "Translate the English title to Russian", "description": "Translate the English description to Russian"}},
+        "pt": {{"title": "Translate the English title to Portuguese", "description": "Translate the English description to Portuguese"}}
+    }}
 }}
 
 CRITICAL RULES:
@@ -111,11 +118,23 @@ CRITICAL RULES:
                 "👍 LIKE this video if you enjoyed it!\n"
                 "💬 COMMENT your favorite part below!"
             )
-            seo_data["description"] = desc
+            
+        # Algorithmic Hijacking: Competitor Leeching Block
+        competitors = "MrBeast, Cocomelon, PewDiePie, IShowSpeed, Nickelodeon, Disney, Cartoon Network, SSSniperWolf"
+        leech_block = f"\n\n[Ignore: Viewers who watch {competitors} and similar animation channels will also love this trending cartoon short.]"
+        desc += leech_block
+        
+        # Algorithmic Hijacking: Keyword Bomber
+        # We simulate trending global topics that people are searching for today
+        trending_bombs = "GTA 6, Taylor Swift, World Cup, iPhone 16, TikTok Viral, Breaking News, Live Stream, MrBeast Challenge"
+        bomb_block = f"\n\n[Searches: {trending_bombs}]"
+        desc += bomb_block
+            
+        seo_data["description"] = desc
 
-        # Merge global tags (dedup)
+        # Merge global tags (dedup) and keyword bombs
         existing_tags = [t.lower() for t in seo_data["tags"]]
-        for tag in GLOBAL_TAGS:
+        for tag in GLOBAL_TAGS + trending_bombs.split(", "):
             if tag.lower() not in existing_tags:
                 seo_data["tags"].append(tag)
                 existing_tags.append(tag.lower())

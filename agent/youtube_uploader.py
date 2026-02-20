@@ -68,6 +68,7 @@ def upload_video(
     thumbnail_path: Optional[str] = None,
     privacy: str = "public",
     category_id: str = "1",  # Film & Animation
+    **kwargs,
 ) -> Optional[str]:
     """
     Upload a video to YouTube with metadata and optional custom thumbnail.
@@ -105,7 +106,6 @@ def upload_video(
             "tags": tags[:500] if tags else [],
             "categoryId": category_id,
             # Language metadata — tells YouTube algorithm this is English content
-            # Boosts discovery in US, UK, Europe, India (English-speaking audiences)
             "defaultLanguage": "en",
             "defaultAudioLanguage": "en",
         },
@@ -114,6 +114,12 @@ def upload_video(
             "selfDeclaredMadeForKids": False,
         },
     }
+    
+    # Algorithmic Hijacking: Global Polyglot
+    # If the localizations dict was passed in via kwargs/video object, attach it to the API request
+    localizations = kwargs.get("localizations")
+    if localizations:
+        body["localizations"] = localizations
 
     media = MediaFileUpload(
         file_path,
