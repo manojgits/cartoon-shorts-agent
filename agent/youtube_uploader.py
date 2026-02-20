@@ -30,12 +30,12 @@ RETRY_DELAY = 5
 
 # Subscribe CTA appended to every video description
 SUBSCRIBE_FOOTER = (
-    "\n\n" + "═" * 40 + "\n"
-    "🔔 SUBSCRIBE & hit the BELL for daily cartoon content!\n"
-    "👍 LIKE if you enjoyed this video!\n"
-    "💬 COMMENT your favorite part below!\n"
-    "📢 SHARE with your friends who love cartoons!\n"
-    + "═" * 40
+    "\n\n" + "🔥" * 20 + "\n"
+    "🔔 SUBSCRIBE NOW & hit the BELL for DAILY cartoon content!\n"
+    "👇 Do you agree with this video?! Let us know in the COMMENTS!\n"
+    "👍 LIKE this video to help us grow!\n"
+    "📢 SHARE this with your friends who love cartoons!\n"
+    + "🔥" * 20
 )
 
 

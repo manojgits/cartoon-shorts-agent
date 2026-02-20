@@ -45,20 +45,16 @@ def generate_thumbnail(
     # Create a short, punchy text for the thumbnail (max 4-5 words)
     short_text = _extract_thumbnail_text(seo_title)
 
-    prompt = f"""Create a vibrant, eye-catching YouTube thumbnail for a cartoon/animation video.
+    prompt = f"""Create a highly clickable, viral YouTube thumbnail for a cartoon video.
 
-The thumbnail should have:
-- Bold, large text saying: "{short_text}"
-- Bright, saturated colors (yellows, reds, blues)
-- Cartoon-style design with expressive characters or elements
-- High contrast and drama to grab attention
-- Professional YouTube thumbnail style
-- 16:9 aspect ratio
-- Clean, uncluttered composition
-- The text should be very prominent and readable even at small sizes
-
-Style: Modern YouTube thumbnail, bold typography, vibrant cartoon aesthetic, energetic and fun.
-DO NOT include any watermarks or logos."""
+CRITICAL REQUIREMENTS:
+- Center focus: EXTREMELY expressive, shocking, or funny cartoon character
+- Big, bold, glowing 3D Text saying exactly: "{short_text}"
+- Style: MrBeast-style YouTube thumbnail. Overly saturated colors, high contrast, glowing edges, dramatic lighting.
+- The thumbnail MUST look like clickbait (but family friendly). Lots of reds, yellows, and blues.
+- 16:9 aspect ratio, clean composition so it looks good on mobile phones.
+- DO NOT include real photos of humans. ONLY 3D/2D animation style.
+- DO NOT include watermarks or small unreadable text."""
 
     try:
         response = client.models.generate_content(

@@ -59,19 +59,19 @@ Generate the following in JSON format:
 
 {{
     "title": "A catchy, SEO-optimized YouTube title (max 100 characters). Use 1-2 emojis. Include high-search-volume keywords. Make it irresistible to click for viewers in US, UK, and India.",
-    "description": "A compelling YouTube description (300-500 words) that MUST include:\\n- Hook line that makes people want to watch\\n- Engaging summary of the video content\\n- Keywords naturally woven in for US, UK, Europe, and India audiences\\n- A STRONG subscribe call to action: 'SUBSCRIBE for daily cartoon content! Hit the bell 🔔 for notifications!'\\n- Engagement CTA: 'DROP a 🔥 in the comments if you loved this!'\\n- 8-12 relevant hashtags at the end covering #cartoon #animation #funny #meme #trending #viral #shorts #comedy\\n- Fun, energetic, universal tone that appeals globally",
-    "tags": ["Generate 20-30 tags mixing: broad English terms (cartoon, animation, funny, meme), region-specific terms (cartoon hindi, funny cartoon India), trending terms, and specific keywords from the video title"]
+    "description": "A compelling YouTube description (300-500 words) that MUST include:\\n- A highly controversial or extremely engaging hook/question in the very first sentence that forces people to comment (e.g., 'Do you agree with what happens at the end?! Let me know below! 👇')\\n- Engaging summary of the video content\\n- Keywords naturally woven in for US, UK, Europe, and India audiences\\n- A STRONG subscribe call to action: 'SUBSCRIBE for daily cartoon content! Hit the bell 🔔 for notifications!'\\n- 8-12 relevant hashtags at the end covering #cartoon #animation #funny #meme #trending #viral #shorts #comedy\\n- Fun, energetic, universal tone that appeals globally",
+    "tags": ["Generate 20-30 tags mixing: broad English terms (cartoon, animation, funny, meme), region-specific terms (cartoon hindi, funny cartoon India), highly specific clickbait terms, and specific keywords from the video title"]
 }}
 
 CRITICAL RULES:
 - Return ONLY valid JSON, no markdown code blocks or extra text
 - Title must be in ENGLISH (universal appeal for US/UK/Europe/India)
-- Title must be catchy and clickbait-worthy but not misleading
+- Title must be extremely catchy and clickbait-worthy
 - Include trending keywords: cartoon, animation, meme, funny, viral, trending
-- Tags MUST include: cartoon, animation, funny, meme, trending, viral, shorts
+- Tags MUST include common misspellings or overlapping high-traffic memes (e.g., 'try not to laugh', 'funny compilation 2026')
 - Tags should also include India-focused terms: cartoon hindi, funny cartoon hindi
-- Description must include a SUBSCRIBE call to action
-- Think about what a viewer in the US, UK, or India would search for
+- Description MUST include the aggressive comment hook question at the very beginning
+- Think about what a viewer in the US, UK, or India would impulsively search for or click on
 """
 
     try:
