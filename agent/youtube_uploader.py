@@ -141,6 +141,9 @@ def upload_video(
         if thumbnail_path and os.path.exists(thumbnail_path):
             _set_thumbnail(service, video_id, thumbnail_path)
 
+        # Post the engagement trap comment
+        _post_engagement_comment(service, video_id)
+
         return video_url
 
     except HttpError as e:
@@ -193,6 +196,49 @@ def _set_thumbnail(service, video_id: str, thumbnail_path: str):
             )
         else:
             logger.warning(f"⚠️ Could not set thumbnail: {e}")
+
+
+def _post_engagement_comment(service, video_id: str):
+    """Post a polarizing, high-engagement 'trap' comment on the newly uploaded video."""
+    import random
+    
+    # Highly polarizing and engaging questions to force viewer interaction
+    BAIT_COMMENTS = [
+        "Unpopular opinion: this is actually the best scene of all time. Prove me wrong 👇",
+        "Who else agrees with what happened at the end?! Let me know below! 👇👇",
+        "I bet 99% of people missed the hidden detail at 0:15... Did you see it? 👀",
+        "If you remember watching this on TV, your childhood was awesome. Drop a 🔥 if you agree!",
+        "This still makes me laugh way harder than it should 😂 What's your favorite part?",
+        "Do you think they went too far with this joke? Let the debate begin 👇",
+        "Only true fans know the backstory behind this scene... Prove you're a real one in the comments 👀"
+    ]
+    
+    comment_text = random.choice(BAIT_COMMENTS)
+    
+    try:
+        # Create a top-level comment string
+        body = {
+            "snippet": {
+                "videoId": video_id,
+                "topLevelComment": {
+                    "snippet": {
+                        "textOriginal": comment_text
+                    }
+                }
+            }
+        }
+        
+        service.commentThreads().insert(
+            part="snippet",
+            body=body
+        ).execute()
+        logger.info(f"🪤 Engagement trap comment posted: '{comment_text}'")
+        
+        # Note: We cannot automatically pin the comment via the API as of 2026, 
+        # but posting it as the channel owner still pins it to the top of the feed visually.
+        
+    except HttpError as e:
+        logger.warning(f"⚠️ Could not post engagement comment: {e}")
 
 
 def upload_videos_to_youtube(
