@@ -1,136 +1,79 @@
-# 🎬 Cartoon Shorts Agent
+# 🎬 Cartoon Shorts Viral Automation Agent
 
-An automated AI agent that discovers **trending cartoon videos** on YouTube — both **Shorts** and **full-length** — downloads them, uploads to **Google Drive**, and sends notifications with links to your **Telegram**. Runs daily for free via GitHub Actions.
+An automated, hyper-aggressive AI agent that discovers, downloads, and re-uploads **trending cartoon videos** to your YouTube channel. It leverages **Gemini 2.5 Flash** to automatically generate clickbait SEO, custom viral thumbnails, and deploys **algorithmic hijacking** strategies to force massive growth.
 
-## ✨ Features
+Runs fully autonomously twice a day (9:00 AM & 6:00 PM IST) for free via GitHub Actions.
 
-- 🔍 **Smart Discovery** — Searches YouTube across multiple queries for Shorts (≤60s) and full-length (>60s) videos
-- 📊 **Trending Ranker** — Scores videos by views, engagement ratio, and recency
-- ⬇️ **Video Download** — Downloads videos using `pytubefix`
-- ☁️ **Google Drive Upload** — Uploads downloaded videos with shareable links
-- 💬 **Telegram Notifications** — Sends video thumbnail, info, YouTube link, and Drive download link
-- 🚫 **No Duplicates** — Tracks posted videos to never repeat content
-- 🤖 **Fully Automated** — Runs once daily at 9 AM IST via GitHub Actions (free!)
-- 💰 **Zero Cost** — No paid APIs, no servers, no subscriptions
+## ✨ Core Features
 
-## 🚀 Quick Start
+- 🔍 **Smart Discovery** — Scrapes YouTube across US, UK, Europe, and India regions for viral Shorts.
+- ⬇️ **Automated Downloading** — Downloads videos via `pytubefix` without watermarks.
+- 🎨 **Gemini AI Thumbnails** — Uses Gemini to analyze the video and generate custom, high-CTR "MrBeast-style" viral thumbnails.
+- 📝 **Gemini AI SEO** — Generates irresistible clickbait English titles, highly engaging descriptions, and trending tags.
+- ☁️ **Google Drive Backup** — Uploads backups to Google Drive and sends Telegram notifications.
+- 🚫 **Duplicate Prevention** — Tracks all posts to ensure you never re-upload the same video.
+- 🤖 **Zero-Cost Automation** — Runs 100% autonomously in the cloud via GitHub Actions.
 
-### 1. Get Your API Keys (all free)
+## 🚀 The Algorithmic Hijacking Suite (Aggressive Growth)
 
+We have engineered this agent to forcefully manipulate the YouTube discovery algorithm using four aggressive strategies:
+
+1. **The Engagement Trap (Auto-Commenting)**
+   - Immediately after uploading, the agent uses your YouTube account to automatically post a highly polarizing question as the top comment (e.g., *"Unpopular opinion: this is actually the best scene. Prove me wrong 👇"*). This baits viewers into arguing, signaling massive engagement to the algorithm.
+
+2. **The Keyword Bomber (Trend Hijacking)**
+   - The agent artificially injects an invisible block of the day's biggest trending global search terms (e.g., *GTA 6, Taylor Swift, TikTok Viral*) at the very bottom of your video description to trick the search crawler.
+
+3. **The Global Polyglot (Metadata Translation Spam)**
+   - The agent uses Gemini to instantly translate your title and description into the 5 most spoken languages (*Spanish, Hindi, Arabic, Russian, Portuguese*). It submits all 5 directly to the YouTube API simultaneously, tricking the global crawler into pushing your video to international "For You" feeds.
+
+4. **Competitor Leeching**
+   - A hidden text string is generated in every description: `[Ignore: Viewers who watch MrBeast, Cocomelon, PewDiePie... will also love this]`. This exploits the "Up Next" AI crawler, forcing your Short into the recommended queue of massive 50-million subscriber channels.
+
+## 🚀 Quick Start & Setup
+
+### 1. Get Your API Keys (All Free)
 | Key | Where to Get |
 |-----|-------------|
 | YouTube Data API v3 | [Google Cloud Console](https://console.cloud.google.com) |
+| Gemini API Key | [Google AI Studio](https://aistudio.google.com/app/apikey) |
 | Telegram Bot Token | [@BotFather](https://t.me/BotFather) on Telegram |
-| Chat/Channel ID | Your Telegram chat ID (use [@userinfobot](https://t.me/userinfobot)) |
-| Google Drive Folder ID | Create a folder in Drive → copy the ID from the URL |
+| Chat/Channel ID | Your Telegram chat ID |
+| Google Drive Folder | Create a folder in Drive → copy the ID from the URL |
 
-### 2. Set Up the Repository
-
+### 2. Local Setup
 ```bash
-# Clone the repo
 git clone https://github.com/manojgits/cartoon-shorts-agent.git
 cd cartoon-shorts-agent
-
-# Create virtual environment
-python -m venv .venv
-.venv\Scripts\activate        # Windows
-# source .venv/bin/activate   # macOS/Linux
-
-# Install dependencies
+python -m venv venv
+.\venv\Scripts\activate
 pip install -r requirements.txt
-
-# Copy and fill in your env vars
 cp .env.example .env
-# Edit .env with your API keys
 ```
+*Fill in your `.env` file with all the API keys above.*
 
-### 3. Set Up Google Drive (one-time)
+### 3. Generate YouTube OAuth Token (Crucial for Auto-Comments)
+1. In Google Cloud, generate an **OAuth client ID (Desktop app)** and download it as `credentials.json` to the root folder.
+2. Run `python auth_setup.py`.
+3. Log in with your YouTube channel account. This creates a local `token.json` file.
 
-1. Go to [Google Cloud Console](https://console.cloud.google.com) → your project
-2. Enable the **Google Drive API**
-3. Go to **APIs & Services → Credentials**
-4. Create **OAuth client ID** → **Desktop app**
-5. Download the JSON → save as `credentials.json` in the project root
-6. Set up the **OAuth consent screen**:
-   - Choose **External** → add your email as a **test user**
-7. Run the auth setup:
+### 4. Deploy to GitHub Actions (Free Hosting)
+1. Push code to your GitHub repository.
+2. Go to **Settings → Secrets and variables → Actions** and add these repository secrets:
+    * `YOUTUBE_API_KEY`
+    * `GEMINI_API_KEY`
+    * `TELEGRAM_BOT_TOKEN`
+    * `TELEGRAM_CHANNEL_ID`
+    * `GOOGLE_DRIVE_FOLDER_ID`
+    * `TOKEN` (Paste the exact contents of your newly generated `token.json` file here)
+3. The agent runs automatically twice daily at **9:00 AM IST** and **6:00 PM IST** (Uploads 6 Shorts a day).
 
-```bash
-python auth_setup.py
-```
-
-This opens your browser to authorize Drive access. A `token.json` file is saved for future runs.
-
-### 4. Test Locally
-
-```bash
-# Dry run — fetches & ranks but doesn't download/post
-python main.py --dry-run
-
-# Full run — downloads, uploads to Drive, and sends to Telegram
-python main.py
-```
-
-### 5. Deploy to GitHub Actions (Free Hosting)
-
-1. Push code to your GitHub repository
-2. Go to **Settings → Secrets → Actions** and add:
-
-| Secret | Value |
-|--------|-------|
-| `YOUTUBE_API_KEY` | Your YouTube Data API key |
-| `TELEGRAM_BOT_TOKEN` | Bot token from @BotFather |
-| `TELEGRAM_CHANNEL_ID` | Your Telegram chat ID |
-| `GOOGLE_DRIVE_FOLDER_ID` | Your Drive folder ID |
-
-3. The agent runs automatically once daily at **9:00 AM IST** 🎉
-
-> **Note**: Google Drive upload on GitHub Actions requires additional setup (OAuth token as a secret). Without it, the agent still sends Telegram messages with YouTube links.
-
-## 📁 Project Structure
-
-```
-├── agent/
-│   ├── youtube_fetcher.py    # YouTube API — fetches Shorts & full-length
-│   ├── ranker.py             # Trending score algorithm
-│   ├── downloader.py         # Video download via pytubefix
-│   ├── drive_uploader.py     # Google Drive upload via OAuth2
-│   ├── telegram_poster.py    # Telegram notifications with links
-│   └── dedup.py              # Duplicate prevention
-├── main.py                   # Orchestrator
-├── config.py                 # Environment-based config
-├── auth_setup.py             # One-time Google Drive auth
-├── .github/workflows/        # GitHub Actions daily cron job
-├── requirements.txt          # Python dependencies
-└── posted_videos.json        # Auto-generated tracker
-```
-
-## ⚙️ Configuration
-
+## ⚙️ Configuration (`config.py`)
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `NUM_SHORTS` | 2 | Number of Shorts per run |
-| `NUM_FULL_LENGTH` | 2 | Number of full-length videos per run |
-| `MAX_VIDEO_AGE_HOURS` | 24 | Only fetch videos newer than this |
-
-## 🧠 How the Ranking Works
-
-Each video gets a score from 0–1:
-
-| Signal | Weight | What It Measures |
-|--------|--------|-----------------|
-| Views | 40% | Raw popularity |
-| Engagement | 30% | Likes-to-views ratio (quality) |
-| Recency | 30% | How recently it was published |
-
-## 🔧 Dependencies
-
-- `google-api-python-client` — YouTube Data API
-- `google-auth` + `google-auth-oauthlib` — Google Drive OAuth2
-- `pytubefix` — YouTube video downloading
-- `python-telegram-bot` — Telegram Bot API
-- `python-dotenv` — Environment variable management
+| `NUM_SHORTS` | 3 | Number of Shorts to download/post per run (6 total daily) |
+| `NUM_FULL_LENGTH` | 1 | Number of full-length videos per run |
+| `MAX_VIDEO_AGE_HOURS` | 24 | Only fetch viral videos uploaded in the last 24 hours |
 
 ## 📄 License
-
-MIT — Free to use and modify.
+MIT — Free to use and modify for absolute algorithmic domination.
