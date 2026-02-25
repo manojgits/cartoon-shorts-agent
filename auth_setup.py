@@ -31,16 +31,28 @@ def main():
 
     # Check for existing token
     if os.path.exists(TOKEN_FILE):
-        creds = Credentials.from_authorized_user_file(TOKEN_FILE, SCOPES)
-        if creds and creds.valid:
-            print("✅ Already authorized! token.json is valid.")
+        creds = Credentials.from_authorized_user_file(TOKEN_FILE)
+        
+        # Check if all required scopes are present
+        has_all_scopes = all(s in creds.scopes for s in SCOPES) if creds.scopes else False
+        
+        if creds and creds.valid and has_all_scopes:
+            print("✅ Already authorized! token.json is valid and has all required permissions.")
             return
-        if creds and creds.expired and creds.refresh_token:
+        
+        if not has_all_scopes:
+            print("⚠️ Existing token is missing required permissions.")
+        elif creds and creds.expired and creds.refresh_token:
             print("🔄 Token expired, refreshing...")
             creds.refresh(Request())
-            _save_token(creds)
-            print("✅ Token refreshed successfully!")
-            return
+            # After refresh, check scopes again
+            has_all_scopes = all(s in creds.scopes for s in SCOPES) if creds.scopes else False
+            if has_all_scopes:
+                _save_token(creds)
+                print("✅ Token refreshed successfully!")
+                return
+            else:
+                print("⚠️ Refreshed token still missing required permissions.")
 
     # Check for credentials.json
     if not os.path.exists(CREDENTIALS_FILE):

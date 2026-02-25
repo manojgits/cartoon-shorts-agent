@@ -126,7 +126,7 @@ CRITICAL RULES:
         
         # Algorithmic Hijacking: Keyword Bomber
         # We simulate trending global topics that people are searching for today
-        trending_bombs = "GTA 6, Taylor Swift, World Cup, iPhone 16, TikTok Viral, Breaking News, Live Stream, MrBeast Challenge"
+        trending_bombs = "Bluey, Cocomelon, Anime edits, SpongeBob funny, Disney Pixar, Family Guy funny moments, MrBeast Gaming, Minecraft Animation"
         bomb_block = f"\n\n[Searches: {trending_bombs}]"
         desc += bomb_block
             

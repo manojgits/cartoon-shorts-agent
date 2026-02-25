@@ -59,6 +59,18 @@ def _get_youtube_service(token_file: str):
     return build("youtube", "v3", credentials=creds)
 
 
+def _get_valid_tags(tags, max_chars=500):
+    valid_tags = []
+    current_length = 0
+    for tag in tags:
+        tag_len = len(tag)
+        if current_length + tag_len <= max_chars:
+            valid_tags.append(tag)
+            current_length += tag_len + 1  # approximate +1 for separator if YouTube counts it
+        else:
+            break
+    return valid_tags
+
 def upload_video(
     token_file: str,
     file_path: str,
@@ -67,7 +79,7 @@ def upload_video(
     tags: list,
     thumbnail_path: Optional[str] = None,
     privacy: str = "public",
-    category_id: str = "1",  # Film & Animation
+    category_id: str = "24",  # Entertainment
     **kwargs,
 ) -> Optional[str]:
     """
@@ -103,9 +115,8 @@ def upload_video(
         "snippet": {
             "title": title[:100],
             "description": full_description[:5000],
-            "tags": tags[:500] if tags else [],
+            "tags": _get_valid_tags(tags, 400) if tags else [],  # safe buffer 400
             "categoryId": category_id,
-            # Language metadata — tells YouTube algorithm this is English content
             "defaultLanguage": "en",
             "defaultAudioLanguage": "en",
         },
@@ -129,9 +140,14 @@ def upload_video(
     )
 
     try:
+        # If localizations are in the body, they must be in the 'part' parameter too
+        part = "snippet,status"
+        if "localizations" in body:
+            part += ",localizations"
+
         # Upload video
         request = service.videos().insert(
-            part="snippet,status",
+            part=part,
             body=body,
             media_body=media,
         )
@@ -278,6 +294,7 @@ def upload_videos_to_youtube(
                 tags=tags,
                 thumbnail_path=thumbnail_path,
                 privacy=privacy,
+                localizations=video.get("localizations")
             )
 
         video_with_url = dict(video)

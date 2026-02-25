@@ -8,7 +8,9 @@ Run with: python main.py [--dry-run]
 """
 
 import argparse
+import json
 import logging
+import os
 import random
 import sys
 
@@ -77,9 +79,7 @@ def run(dry_run: bool = False):
             f"(👁 {v['views']:,} | ❤️ {v['likes']:,})"
         )
 
-    if dry_run:
-        logger.info("🏃 DRY RUN — skipping download, upload, and Telegram posting.")
-        return
+
 
     # ── Step 6: Download videos ──────────────────────────────────────────────
     logger.info("⬇️ Downloading videos...")
@@ -102,16 +102,44 @@ def run(dry_run: bool = False):
     if config.GEMINI_API_KEY:
         logger.info("✨ Generating SEO with Gemini AI...")
         for video in all_videos:
-            vtype = "Short" if video.get("duration_seconds", 0) <= 60 else "Full"
-            seo = generate_seo(config.GEMINI_API_KEY, video["title"], vtype)
+            v_id = video.get("video_id", "unknown")
+            seo_cache_file = os.path.join(config.DOWNLOADS_DIR, f"{v_id}_seo.json")
+            
+            seo = None
+            # Check local cache first
+            if os.path.exists(seo_cache_file):
+                logger.info(f"📂 Loading cached SEO for {v_id}...")
+                try:
+                    with open(seo_cache_file, "r", encoding="utf-8") as f:
+                        seo = json.load(f)
+                except Exception as e:
+                    logger.warning(f"⚠️ Failed to load cached SEO for {v_id}: {e}")
+
+            if not seo:
+                vtype = "Short" if video.get("duration_seconds", 0) <= 60 else "Full"
+                seo = generate_seo(config.GEMINI_API_KEY, video["title"], vtype)
+                if seo:
+                    # Save to sidecar file for Drive and local quota saving
+                    try:
+                        os.makedirs(config.DOWNLOADS_DIR, exist_ok=True)
+                        with open(seo_cache_file, "w", encoding="utf-8") as f:
+                            json.dump(seo, f, indent=4, ensure_ascii=False)
+                        logger.info(f"💾 Saved SEO sidecar to {v_id}_seo.json")
+                    except Exception as e:
+                        logger.warning(f"⚠️ Failed to save SEO sidecar for {v_id}: {e}")
+
             if seo:
                 video["seo_title"] = seo["title"]
                 video["seo_description"] = seo["description"]
                 video["seo_tags"] = seo["tags"]
+                video["localizations"] = seo.get("localizations")
+                video["seo_json_path"] = seo_cache_file
             else:
                 video["seo_title"] = video["title"]
                 video["seo_description"] = ""
                 video["seo_tags"] = []
+                video["localizations"] = None
+                video["seo_json_path"] = None
     else:
         logger.info("⏭️ Skipping SEO generation (no GEMINI_API_KEY)")
         for video in all_videos:
@@ -133,6 +161,10 @@ def run(dry_run: bool = False):
             video["thumbnail_path"] = thumb
     else:
         logger.info("⏭️ Skipping thumbnail generation (no GEMINI_API_KEY)")
+
+    if dry_run:
+        logger.info("🏃 DRY RUN — skipping download, upload, and Telegram posting.")
+        return
 
     # ── Step 10: Upload to YouTube ───────────────────────────────────────────
     logger.info("🎬 Uploading to YouTube channel...")

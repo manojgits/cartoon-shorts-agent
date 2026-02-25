@@ -39,7 +39,7 @@ def _get_drive_service(token_file: str):
     return build("drive", "v3", credentials=creds)
 
 
-def upload_file(token_file: str, folder_id: str, file_path: str, title: str) -> Optional[str]:
+def upload_file(token_file: str, folder_id: str, file_path: str, drive_name: str, mimetype: str = "video/mp4") -> Optional[str]:
     """
     Upload a single file to Google Drive.
 
@@ -55,13 +55,13 @@ def upload_file(token_file: str, folder_id: str, file_path: str, title: str) -> 
 
     try:
         file_metadata = {
-            "name": f"{title}.mp4",
+            "name": drive_name,
             "parents": [folder_id],
         }
 
         media = MediaFileUpload(
             file_path,
-            mimetype="video/mp4",
+            mimetype=mimetype,
             resumable=True,
         )
 
@@ -72,11 +72,11 @@ def upload_file(token_file: str, folder_id: str, file_path: str, title: str) -> 
         ).execute()
 
         drive_link = file.get("webViewLink", "")
-        logger.info(f"✅ Uploaded to Drive: {title} → {drive_link}")
+        logger.info(f"✅ Uploaded to Drive: {drive_name} → {drive_link}")
         return drive_link
 
     except Exception as e:
-        logger.error(f"❌ Failed to upload '{title}' to Drive: {e}")
+        logger.error(f"❌ Failed to upload '{drive_name}' to Drive: {e}")
         return None
 
 
@@ -90,10 +90,17 @@ def upload_videos(token_file: str, folder_id: str, videos: list) -> list:
     for video in videos:
         file_path = video.get("file_path")
         title = video.get("title", "Untitled")
+        seo_json_path = video.get("seo_json_path")
 
         drive_link = None
         if file_path:
-            drive_link = upload_file(token_file, folder_id, file_path, title)
+            # 1. Upload the video file
+            drive_link = upload_file(token_file, folder_id, file_path, f"{title}.mp4", "video/mp4")
+            
+            # 2. Upload SEO sidecar if it exists
+            if seo_json_path and os.path.exists(seo_json_path):
+                logger.info(f"📄 Uploading SEO sidecar to Drive for: {title}")
+                upload_file(token_file, folder_id, seo_json_path, f"{title}_seo.json", "application/json")
 
         video_with_link = dict(video)
         video_with_link["drive_link"] = drive_link

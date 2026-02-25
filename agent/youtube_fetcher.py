@@ -150,8 +150,9 @@ def fetch_shorts(api_key: str, queries: list, max_age_hours: int = 24) -> list:
 
 
 def fetch_full_length(api_key: str, queries: list, max_age_hours: int = 24) -> list:
-    """Fetch only full-length videos (>60 seconds)."""
+    """Fetch only full-length videos (between 2 and 8 minutes)."""
     videos = fetch_trending_cartoons(api_key, queries, max_age_hours)
-    full = [v for v in videos if v["duration_seconds"] > 60]
-    logger.info(f"Filtered to {len(full)} full-length (>60s) from {len(videos)} total")
+    # 2 minutes = 120 seconds, 8 minutes = 480 seconds
+    full = [v for v in videos if 120 < v["duration_seconds"] <= 480]
+    logger.info(f"Filtered to {len(full)} full-length (2-8m) from {len(videos)} total")
     return full

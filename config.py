@@ -29,7 +29,7 @@ YOUTUBE_PRIVACY = os.environ.get("YOUTUBE_PRIVACY", "public")  # public, unliste
 # ─── Agent Settings ─────────────────────────────────────────────────────────────
 NUM_SHORTS = int(os.environ.get("NUM_SHORTS", "3"))
 NUM_FULL_LENGTH = int(os.environ.get("NUM_FULL_LENGTH", "1"))
-MAX_VIDEO_AGE_HOURS = int(os.environ.get("MAX_VIDEO_AGE_HOURS", "24"))
+MAX_VIDEO_AGE_HOURS = int(os.environ.get("MAX_VIDEO_AGE_HOURS", "720"))
 
 # Search queries for SHORTS (≤60 seconds)
 # Mix of US/UK, Europe, and India trending terms for global reach
