@@ -29,39 +29,40 @@ def download_video(video_id: str, title: str, download_dir: str) -> Optional[str
     filename = f"{safe_title} [{video_id}].mp4"
     url = f"https://www.youtube.com/watch?v={video_id}"
 
-    try:
-        # Use ANDROID client by default (proven to bypass bot detection in 10.3.8 without PO prompt)
-        logger.info(f"📥 Attempting download with ANDROID client: {title}")
-        yt = YouTube(url, client='ANDROID')
-        stream = yt.streams.get_highest_resolution()
+    # Prioritized list of clients to try (MWEB is currently most resilient to bot detection)
+    clients_to_try = ['MWEB', 'ANDROID', 'WEB_EMBED', 'IOS', 'WEB']
 
-        if not stream:
-            # Fallback to WEB_EMBED client
-            logger.info(f"🔄 ANDROID client failed, trying WEB_EMBED client: {title}")
-            yt = YouTube(url, client='WEB_EMBED')
-            stream = yt.streams.get_highest_resolution()
-
-        if not stream:
-            logger.warning(f"⚠️ No stream found for: {title}")
-            return None
-
-        filepath = stream.download(output_path=download_dir, filename=filename)
-        size_mb = os.path.getsize(filepath) / (1024 * 1024)
-        logger.info(f"✅ Downloaded: {title} ({size_mb:.1f} MB)")
-        return filepath
-
-    except Exception as e:
-        logger.warning(f"⚠️ Could not download '{title}': {e}")
-        # Final fallback: try without any specific client
+    for client_name in clients_to_try:
         try:
-            logger.info(f"🔄 Final fallback attempt for: {title}")
-            yt = YouTube(url)
+            logger.info(f"📥 Attempting download with {client_name} client: {title}")
+            # We avoid use_po_token=True to prevent interactive prompts in headless environments
+            yt = YouTube(url, client=client_name)
             stream = yt.streams.get_highest_resolution()
+
             if stream:
                 filepath = stream.download(output_path=download_dir, filename=filename)
+                size_mb = os.path.getsize(filepath) / (1024 * 1024)
+                logger.info(f"✅ Downloaded with {client_name}: {title} ({size_mb:.1f} MB)")
                 return filepath
-        except:
-            pass
+            else:
+                logger.warning(f"⚠️ No stream found for {title} using {client_name} client.")
+        except Exception as e:
+            if "detected as a bot" in str(e).lower() or "403" in str(e):
+                logger.warning(f"🚫 {client_name} client detected as bot/forbidden for {title}.")
+            else:
+                logger.warning(f"⚠️ {client_name} client error for {title}: {e}")
+            continue
+
+    # Final fallback: try without any specific client
+    try:
+        logger.info(f"🔄 Final fallback attempt for: {title}")
+        yt = YouTube(url)
+        stream = yt.streams.get_highest_resolution()
+        if stream:
+            filepath = stream.download(output_path=download_dir, filename=filename)
+            return filepath
+    except Exception as e:
+        logger.error(f"❌ All download attempts failed for '{title}': {e}")
         return None
 
 
