@@ -30,8 +30,16 @@ def download_video(video_id: str, title: str, download_dir: str) -> Optional[str
     url = f"https://www.youtube.com/watch?v={video_id}"
 
     try:
-        yt = YouTube(url)
+        # Use ANDROID client by default (proven to bypass bot detection in 10.3.8 without PO prompt)
+        logger.info(f"📥 Attempting download with ANDROID client: {title}")
+        yt = YouTube(url, client='ANDROID')
         stream = yt.streams.get_highest_resolution()
+
+        if not stream:
+            # Fallback to WEB_EMBED client
+            logger.info(f"🔄 ANDROID client failed, trying WEB_EMBED client: {title}")
+            yt = YouTube(url, client='WEB_EMBED')
+            stream = yt.streams.get_highest_resolution()
 
         if not stream:
             logger.warning(f"⚠️ No stream found for: {title}")
@@ -44,6 +52,16 @@ def download_video(video_id: str, title: str, download_dir: str) -> Optional[str
 
     except Exception as e:
         logger.warning(f"⚠️ Could not download '{title}': {e}")
+        # Final fallback: try without any specific client
+        try:
+            logger.info(f"🔄 Final fallback attempt for: {title}")
+            yt = YouTube(url)
+            stream = yt.streams.get_highest_resolution()
+            if stream:
+                filepath = stream.download(output_path=download_dir, filename=filename)
+                return filepath
+        except:
+            pass
         return None
 
 
