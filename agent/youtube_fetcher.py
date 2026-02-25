@@ -50,6 +50,7 @@ def search_videos(api_key: str, query: str, max_age_hours: int = 48, max_results
         if vid_id:
             video_ids.append(vid_id)
 
+    logger.debug(f"🔍 Search for '{query}' found {len(video_ids)} candidates.")
     return video_ids
 
 

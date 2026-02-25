@@ -37,16 +37,21 @@ logger = logging.getLogger("agent")
 def run(dry_run: bool = False):
     """Main agent execution flow."""
 
-    # ── Step 1: Validate config ──────────────────────────────────────────────
-    logger.info("=" * 60)
-    logger.info("🤖 Cartoon Agent — Starting run")
-    logger.info("=" * 60)
+    logger.info("🚀 Starting Cartoon Agent...")
+    if dry_run:
+        logger.info("🧪 RUNNING IN DRY-RUN MODE")
 
+    # ── Step 0: Validate configuration ───────────────────────────────────────
     try:
         config.validate_config()
+        logger.info("✅ Configuration validated successfully.")
     except EnvironmentError as e:
-        logger.error(f"Config error: {e}")
-        sys.exit(1)
+        logger.critical(f"❌ CONFIGURATION ERROR: {e}")
+        logger.info("💡 Please check your GitHub Secrets (YOUTUBE_API_KEY, TELEGRAM_BOT_TOKEN, etc.)")
+        return
+    except Exception as e:
+        logger.critical(f"❌ Unexpected error during config validation: {e}")
+        return
 
     # ── Step 2: Load dedup tracker ───────────────────────────────────────────
     posted_ids = load_posted_ids(config.POSTED_VIDEOS_FILE)
